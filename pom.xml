@@ -18,9 +18,9 @@
 
         <!--配置日志相关，日志门面使用slf4j，日志的具体实现由logback实现-->
         <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.1.7</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.8.0-alpha2</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -127,7 +127,19 @@
     </dependencies>
     <build>
         <finalName>seckill</finalName>
+        <plugins>
+            <plugin>
+                <!--设置java编译版本，maven中使用-->
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <encoding>utf-8</encoding>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
+
 </project>
 
 
