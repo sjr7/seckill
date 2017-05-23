@@ -721,8 +721,7 @@ public class SeckillMapperTest {
 ```
 测试中可能会出现`Mybatis`参数绑定失败的错误,在`mapper`接口中的方法里面添加`@Param`的注解，显示的告诉mybatis参数的名称是什么，例如
 ```java
-
-List<Seckill> queryAll(@Param("offset") int offset, @Param("limit") int limit);
+ List<Seckill> queryAll(@Param("offset") int offset, @Param("limit") int limit);
 
 ```  
 2016-5-23 13:46：28
@@ -741,3 +740,10 @@ List<Seckill> queryAll(@Param("offset") int offset, @Param("limit") int limit);
  + 首先先写spring-dao.xml
      + 配置dataSource
        + jdbc.properties
+       
++ 建立dto等包
++ 写service
++ 在dto下建立两个相关类
++ 在exception下建立基础异常以及子异常
++ 优化业务逻辑
++ 写枚举
