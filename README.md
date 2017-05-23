@@ -516,6 +516,220 @@ public interface SuccessKilledMapper {
 
 ```
 #### 接下来书写`xml`配置文件
+##### 建立对应的`mapper.xml`  
+
+首先在`src/main/resources`建立`com.suny.dao`这个包，也就是对应`mapper`接口文件包一样的包名,这样符合Maven的约定，就是资源放置在`Resource`包下，`Java`包下则是放置`java`类文件，编译后最后还是会在同一个目录下.  
+![建包](images/004.png)
+- 首先建立`SeckillMapper.xml`
+```xml
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.suny.dao.SeckillMapper">
+    <!--这里的<=需要使用进行忽略，所以是要进行忽略,使用CDATA 区段中的文本会被解析器忽略 -->
+    <update id="reduceNumber">
+        UPDATE seckill
+        SET number = number - 1
+        WHERE seckill_id = #{seckillId}
+              AND start_time 
+              <![CDATA[
+              <=
+              ]]>
+         #{killTime}
+              AND end_time >= #{killTime}
+              AND number > 0
+    </update>
+
+    <select id="queryById" resultType="com.suny.entity.Seckill">
+        SELECT
+            *
+        FROM seckill AS s
+        WHERE s.seckill_id = #{seckillId}
+    </select>
+
+
+    <select id="queryAll" resultType="com.suny.entity.Seckill">
+        SELECT
+            *
+        FROM seckill AS s
+        ORDER BY create_time DESC
+        LIMIT #{offset}, #{limit}
+    </select>
+</mapper>
+```
+- 建立`SuccessKilledMapper.xml`
+```xml
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.suny.dao.SuccessKilledMapper">
+    <!--添加主键冲突时忽略错误返回0-->  
+    <insert id="insertSuccessKilled">
+        INSERT IGNORE INTO success_killed (seckill_id, user_phone, state)
+        VALUES (#{seckillId}, #{userPhone}, 0)
+    </insert>
+    <!--根据seckillId查询SuccessKilled对象，并携带Seckill对象，告诉mybatis把映射结果映射到SuccessKill属性同时映射到Seckill属性-->  
+    <select id="queryByIdWithSeckill" resultType="com.suny.entity.SuccessKilled">
+        SELECT
+            sk.seckill_id,
+            sk.user_phone,
+            sk.create_time,
+            sk.state,
+            s.seckill_id  "seckill.seckill_id",
+            s.name "seckill.name",
+            s.number "seckill",
+            s.start_time  "seckill.start_time",
+            s.end_time  "seckill.end_time",
+            s.create_time "seckill.create_time"
+        FROM success_killed sk
+            INNER JOIN seckill s ON sk.seckill_id = s.seckill_id
+        WHERE sk.seckill_id = #{seckillId}
+              AND sk.user_phone= #{userPhone}
+    </select>
+
+</mapper>  
+  
+```
+- 建立`Mybatis`的配置文件`mybatis-config.xml`
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+    <!--首先配置全局属性-->
+    <settings>
+        <!--开启自动填充主键功能，原理时通过jdbc的一个方法getGeneratekeys获取自增主键值-->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!--使用别名替换列名，默认就是开启的-->
+        <setting name="useColumnLabel" value="true"/>
+        <!--开启驼峰命名的转换-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+</configuration>
+```
+- 然后建立连接数据库的配置文件`jdbc.properties`，这里的属性要根据自己的需要去进行修改，切勿直接复制使用  
+```properties
+jdbc.driver=com.mysql.jdbc.Driver
+jdbc.user=root
+jdbc.password=root
+jdbc.url=jdbc:mysql://localhost:3306/seckill?useUnicode=true&characterEncoding=utf-8
+```
+- 建立`Spring`的`dao`的配置文件，在`resources`包下创建`applicationContext-dao.xml`
+```xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!--配置数据库连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--配置基本的数据库连接-->
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <!--c3p0私有属性-->
+        <property name="maxPoolSize" value="30"/>
+        <property name="minPoolSize" value="10"/>
+        <!--关闭连接后不自动commit-->
+        <property name="autoCommitOnClose" value="false"/>
+        <!--获取连接超时时间-->
+        <property name="checkoutTimeout" value="1000"/>
+        <!--当获取连接失败时的重试次数-->
+    </bean>
+    <!--配置sqlSessionFactory对象-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--注入数据库连接池-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--配置mybatis全局配置文件-->
+        <property name="configLocation" value="mybatis-config.xml"/>
+        <!--配置entity包,也就是实体类包，自动扫描,用于别名配置-->
+        <property name="typeAliasesPackage" value="com.suny.entity"/>
+        <!--配置需要扫描的mapper.xml文件-->
+        <property name="mapperLocations" value="classpath*:com/suny/dao/*.xml"/>
+    </bean>
+
+    <!--配置mapper接口包,动态实现mapper接口，注入到Spring容器-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--注入sqlSessionFactory,请注意不要使用sqlSessionFactoryBean，否则会出现注入异常-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <!--给出要扫描的mapper接口-->
+        <property name="basePackage" value="com.suny.dao"/>
+    </bean>
+
+</beans>
+
+```
+
+- 基础的部分我们搭建完成了，然后要开始测试了
+ 在`IDEA`里面有一个快速建立测试的快捷键`Ctrl+Shift+T`，在某个要测试的类里面按下这个快捷键就会出现`Create new Test`，然后选择你要测试的方法跟测试的工具就可以了，这里我们使用Junit作为测试
+  + 建立`SeckillMapperTest`文件，代码如下
+ ```java
+package com.suny.dao;
+
+import com.suny.entity.Seckill;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import javax.annotation.Resource;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+import static org.junit.Assert.*;
+
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration({"classpath:spring/applicationContext-dao.xml"})
+public class SeckillMapperTest {
+    @Resource
+    private SeckillMapper seckillMapper;
+
+    @Test
+    public void reduceNumber() throws Exception {
+        long seckillId=1000;
+        LocalDateTime localDateTime=LocalDateTime.now();
+        int i = seckillMapper.reduceNumber(seckillId, localDateTime);
+        System.out.println(i);
+    }
+
+    @Test
+    public void queryById() throws Exception {
+        long seckillId = 1000;
+        Seckill seckill = seckillMapper.queryById(seckillId);
+        System.out.println(seckill.toString());
+    }
+
+    @Test
+    public void queryAll() throws Exception {
+        List<Seckill> seckills = seckillMapper.queryAll(0, 100);
+        for (Seckill seckill : seckills) {
+            System.out.println(seckill.toString());
+        }
+    }
+
+}
+```
+测试中可能会出现`Mybatis`参数绑定失败的错误,在`mapper`接口中的方法里面添加`@Param`的注解，显示的告诉mybatis参数的名称是什么，例如
+```java
+
+List<Seckill> queryAll(@Param("offset") int offset, @Param("limit") int limit);
+
+```  
+2016-5-23 13:46：28
+
+---
+
+
 
 - 修改web.xml中的servlet版本为3.0的
 - 建立数据库表

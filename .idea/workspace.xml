@@ -2,34 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0f03f5f-8271-4cb2-8d84-de227c9b8ae7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_8_0_alpha2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/seckill.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/suny/dao/SuccessKilledMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/suny/entity/Seckill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/suny/entity/SuccessKilled.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com.suny.dao/SeckillMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/com.suny.dao/SuccessKilledMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/suny/dao/SeckillMapperTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/suny/dao/SuccessKilledMapperTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/com.suny.dao/suny/dao/SeckillMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/com.suny.dao/suny/dao/SuccessKilledMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com.suny.dao/SeckillMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com.suny.dao/SuccessKilledMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext-dao.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/_metadata_/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/_metadata_/metadata.keystream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/_metadata_/metadata.keystream.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/_metadata_/metadata.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/_metadata_/metadata_i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/_metadata_/metadata_i.len" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/jianrongsun.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/jianrongsun.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_6_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_6_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_8_0_alpha2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_8_0_alpha2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_7_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note/share.md" afterPath="$PROJECT_DIR$/note/share.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seckill.iml" afterPath="$PROJECT_DIR$/seckill.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,14 +113,157 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SeckillMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="19" column="95" lean-forward="false" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="373">
+                <caret line="732" column="0" lean-forward="true" selection-start-line="732" selection-start-column="0" selection-end-line="732" selection-end-column="0" />
+                <folding>
+                  <marker date="1495518468137" expanded="true" signature="1960:6371" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="2349:6296" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="2394:2564" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="2638:2796" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="2817:2965" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="2986:3149" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="3225:3380" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="3426:3565" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="3614:3761" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="3782:3936" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="3992:4136" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="4157:4292" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="4344:4515" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="4536:4695" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="4753:4920" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="4941:5109" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="5130:5300" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="5321:5488" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="5509:5674" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="5695:5861" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="5882:6051" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="6109:6276" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="6308:6360" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="6525:6548" ph="CREATE DATAB... seckill" />
+                  <marker date="1495518468137" expanded="true" signature="6583:7195" ph="CREATE TABLE... seckill" />
+                  <marker date="1495518468137" expanded="true" signature="7210:7532" ph="insert into seckill" />
+                  <marker date="1495518468137" expanded="true" signature="7558:7941" ph="create table... success_killed" />
+                  <marker date="1495518468137" expanded="true" signature="8203:8219" ph="select versi... " />
+                  <marker date="1495518468137" expanded="true" signature="8223:8239" ph="select @@ver... " />
+                  <marker date="1495518468137" expanded="true" signature="9626:9679" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="10070:10077" ph="{...}" />
+                  <marker date="1495518468137" expanded="true" signature="10192:10369" ph="{...}" />
+                  <marker date="1495518468137" expanded="true" signature="10401:10412" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="10429:10435" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="10481:10492" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="10519:10525" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="10557:10568" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="10585:10591" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="10637:10648" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="10675:10681" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="10710:10721" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="10734:10740" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="10779:10790" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="10809:10815" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="10857:10868" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="10886:10892" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="10949:10960" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="10989:10995" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="11028:11039" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="11054:11060" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="11105:11116" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="11139:11145" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="11190:11446" ph="{...}" />
+                  <marker date="1495518468137" expanded="true" signature="11222:11243" ph="" />
+                  <marker date="1495518468137" expanded="true" signature="11248:11252" ph="$" />
+                  <marker date="1495518468137" expanded="true" signature="11261:11281" ph="" />
+                  <marker date="1495518468137" expanded="true" signature="11288:11292" ph="$" />
+                  <marker date="1495518468137" expanded="true" signature="11301:11321" ph="" />
+                  <marker date="1495518468137" expanded="true" signature="11328:11332" ph="${" />
+                  <marker date="1495518468137" expanded="true" signature="11337:11357" ph="}" />
+                  <marker date="1495518468137" expanded="true" signature="11364:11368" ph="${" />
+                  <marker date="1495518468137" expanded="true" signature="11378:11398" ph="}" />
+                  <marker date="1495518468137" expanded="true" signature="11406:11410" ph="${" />
+                  <marker date="1495518468137" expanded="true" signature="11417:11436" ph="}${" />
+                  <marker date="1495518468137" expanded="true" signature="11519:11572" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="12004:12011" ph="{...}" />
+                  <marker date="1495518468137" expanded="true" signature="12147:12352" ph="{...}" />
+                  <marker date="1495518468137" expanded="true" signature="12384:12395" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="12412:12418" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="12464:12475" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="12502:12508" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="12537:12548" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="12560:12566" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="12604:12615" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="12632:12638" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="12666:12677" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="12691:12697" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="12736:12747" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="12768:12774" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="12815:12826" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="12843:12849" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="12904:12915" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="12942:12948" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="12987:12998" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="13013:13019" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="13070:13081" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="13104:13110" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="13152:13163" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="13181:13187" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="13244:13255" ph=" { " />
+                  <marker date="1495518468137" expanded="true" signature="13284:13290" ph=" }" />
+                  <marker date="1495518468137" expanded="true" signature="13335:13646" ph="{...}" />
+                  <marker date="1495518468137" expanded="true" signature="13377:13398" ph="" />
+                  <marker date="1495518468137" expanded="true" signature="13403:13407" ph="$" />
+                  <marker date="1495518468137" expanded="true" signature="13416:13436" ph="" />
+                  <marker date="1495518468137" expanded="true" signature="13444:13448" ph="$" />
+                  <marker date="1495518468137" expanded="true" signature="13452:13455" ph="${" />
+                  <marker date="1495518468137" expanded="true" signature="13459:13479" ph="}" />
+                  <marker date="1495518468137" expanded="true" signature="13484:13488" ph="$" />
+                  <marker date="1495518468137" expanded="true" signature="13494:13514" ph="" />
+                  <marker date="1495518468137" expanded="true" signature="13523:13527" ph="${" />
+                  <marker date="1495518468137" expanded="true" signature="13536:13556" ph="}" />
+                  <marker date="1495518468137" expanded="true" signature="13565:13569" ph="${" />
+                  <marker date="1495518468137" expanded="true" signature="13576:13596" ph="}" />
+                  <marker date="1495518468137" expanded="true" signature="13603:13607" ph="${" />
+                  <marker date="1495518468137" expanded="true" signature="13617:13636" ph="}${" />
+                  <marker date="1495518468137" expanded="true" signature="13778:13902" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="13941:14100" ph="/**...*/" />
+                  <marker date="1495518468137" expanded="true" signature="14207:14329" ph="/**...*/" />
+                  <marker date="1495518468137" expanded="true" signature="14394:14523" ph="/**...*/" />
+                  <marker date="1495518468137" expanded="true" signature="14682:14756" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="14802:14938" ph="/**...*/" />
+                  <marker date="1495518468137" expanded="true" signature="15045:15205" ph="/**...*/" />
+                  <marker date="1495518468137" expanded="true" signature="15738:16506" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="15826:16116" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="16182:16293" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="16359:16496" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="16792:16927" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="17034:17110" ph="select id=&quot;q... " />
+                  <marker date="1495518468137" expanded="true" signature="17119:17694" ph="SELECT sk.se... success_killed" />
+                  <marker date="1495518468137" expanded="true" signature="17961:18323" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="17996:18306" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="18738:20864" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="19352:19943" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="19424:19438" ph="com.mysql.jdbc.Driver" />
+                  <marker date="1495518468137" expanded="true" signature="19482:19493" ph="jdbc:mysql://localhost:3306/seckill?useUnicode=true&amp;characterEncoding=utf-8" />
+                  <marker date="1495518468137" expanded="true" signature="19534:19546" ph="root" />
+                  <marker date="1495518468137" expanded="true" signature="19591:19607" ph="root" />
+                  <marker date="1495518468137" expanded="true" signature="20059:20481" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="20599:20854" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="21083:21423" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="21426:21536" ph="@{...}" />
+                  <marker date="1495518468137" expanded="true" signature="21684:21878" ph="{...}" />
+                  <marker date="1495518468137" expanded="true" signature="21694:21698" ph="val" />
+                  <marker date="1495518468137" expanded="true" signature="21723:21736" ph="val" />
+                  <marker date="1495518468137" expanded="true" signature="21780:21783" ph="val" />
+                  <marker date="1495518468137" expanded="true" signature="21935:22083" ph="{...}" />
+                  <marker date="1495518468137" expanded="true" signature="21945:21949" ph="val" />
+                  <marker date="1495518468137" expanded="true" signature="21976:21983" ph="val" />
+                  <marker date="1495518468137" expanded="true" signature="22161:22317" ph="..." />
+                  <marker date="1495518468137" expanded="true" signature="22219:22226" ph="val" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -109,72 +271,21 @@
       <file leaf-file-name="SeckillMapperTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/suny/dao/SeckillMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-              <folding>
-                <element signature="e#684#704#1" expanded="true" />
-                <element signature="e#713#761#1" expanded="true" />
-                <element signature="e#770#831#1" expanded="true" />
-                <element signature="e#935#957#1" expanded="true" />
-                <element signature="e#966#1019#1" expanded="true" />
-                <element signature="e#1139#1195#1" expanded="true" />
-                <element signature="e#1209#1224#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="145">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuccessKilledMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SuccessKilledMapper.java">
+      <file leaf-file-name="SeckillMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="585">
+              <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuccessKilledMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com.suny.dao/SuccessKilledMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-              <folding>
-                <marker date="1495462253942" expanded="true" signature="250:362" ph="INSERT IGNOR... success_killed" />
-                <marker date="1495462253942" expanded="true" signature="565:1115" ph="SELECT sk.se... success_killed" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuccessKilledMapperTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/suny/dao/SuccessKilledMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#658#678#1" expanded="true" />
-                <element signature="e#687#715#1" expanded="true" />
-                <element signature="e#724#801#1" expanded="true" />
-                <element signature="e#829#855#0" expanded="true" />
-                <element signature="e#829#855#0" expanded="true" />
-                <element signature="e#941#962#1" expanded="true" />
-                <element signature="e#971#999#1" expanded="true" />
-                <element signature="e#1008#1098#1" expanded="true" />
-                <element signature="e#1169#1195#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seckill.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/seckill.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -212,7 +323,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/console.sql" />
         <option value="$PROJECT_DIR$/note/share.md" />
         <option value="$PROJECT_DIR$/sql/seckill.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -223,6 +333,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/suny/dao/SuccessKilledMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/suny/dao/SuccessKilledMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com.suny.dao/SuccessKilledMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -257,10 +369,9 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="383" />
-    <option name="y" value="33" />
-    <option name="width" value="1428" />
-    <option name="height" value="1052" />
+    <option name="y" value="-4" />
+    <option name="width" value="1920" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -281,6 +392,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -306,22 +419,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,89 +438,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.suny.dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="suny" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="suny" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -429,18 +450,82 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Mybatis" />
+    <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
     <property name="settings.editor.splitter.proportion" value="0.22123894" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36017317" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -459,6 +544,8 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com.suny.dao/suny/dao" />
+      <recent name="$PROJECT_DIR$/src/main/resources/com.suny.dao/suny" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -1087,8 +1174,17 @@
       <option name="presentableId" value="Default" />
       <updated>1495376878227</updated>
       <workItem from="1495376879914" duration="1526000" />
-      <workItem from="1495428786405" duration="20595000" />
+      <workItem from="1495428786405" duration="25420000" />
+      <workItem from="1495514675302" duration="3427000" />
     </task>
+    <task id="LOCAL-00001" summary="完成mybatis跟spring基本的配置文件，完善下readme">
+      <created>1495467269379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495467269379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1124,10 +1220,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22121000" />
+    <option name="totallyTimeSpent" value="30373000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="383" y="33" width="1428" height="1052" extended-state="0" />
+    <frame x="0" y="-4" width="1920" height="1031" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1139,14 +1235,14 @@
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37210983" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37206823" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.84685713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1154,17 +1250,17 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5985748" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.78697675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5985748" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1209,6 +1305,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成mybatis跟spring基本的配置文件，完善下readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成mybatis跟spring基本的配置文件，完善下readme" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="3" />
@@ -1220,6 +1320,180 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1495518468137" expanded="true" signature="1960:6371" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2349:6296" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2394:2564" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2638:2796" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2817:2965" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2986:3149" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3225:3380" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3426:3565" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3614:3761" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3782:3936" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3992:4136" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4157:4292" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4344:4515" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4536:4695" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4753:4920" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4941:5109" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5130:5300" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5321:5488" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5509:5674" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5695:5861" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5882:6051" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="6109:6276" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="6308:6360" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="6525:6548" ph="CREATE DATAB... seckill" />
+              <marker date="1495518468137" expanded="true" signature="6583:7195" ph="CREATE TABLE... seckill" />
+              <marker date="1495518468137" expanded="true" signature="7210:7532" ph="insert into seckill" />
+              <marker date="1495518468137" expanded="true" signature="7558:7941" ph="create table... success_killed" />
+              <marker date="1495518468137" expanded="true" signature="8203:8219" ph="select versi... " />
+              <marker date="1495518468137" expanded="true" signature="8223:8239" ph="select @@ver... " />
+              <marker date="1495518468137" expanded="true" signature="9626:9679" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="10070:10077" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="10192:10369" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="10401:10412" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10429:10435" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10481:10492" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10519:10525" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10557:10568" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10585:10591" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10637:10648" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10675:10681" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10710:10721" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10734:10740" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10779:10790" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10809:10815" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10857:10868" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10886:10892" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10949:10960" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10989:10995" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="11028:11039" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="11054:11060" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="11105:11116" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="11139:11145" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="11190:11446" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="11222:11243" ph="" />
+              <marker date="1495518468137" expanded="true" signature="11248:11252" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="11261:11281" ph="" />
+              <marker date="1495518468137" expanded="true" signature="11288:11292" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="11301:11321" ph="" />
+              <marker date="1495518468137" expanded="true" signature="11328:11332" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="11337:11357" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="11364:11368" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="11378:11398" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="11406:11410" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="11417:11436" ph="}${" />
+              <marker date="1495518468137" expanded="true" signature="11519:11572" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="12004:12011" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="12147:12352" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="12384:12395" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12412:12418" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12464:12475" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12502:12508" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12537:12548" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12560:12566" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12604:12615" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12632:12638" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12666:12677" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12691:12697" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12736:12747" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12768:12774" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12815:12826" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12843:12849" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12904:12915" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12942:12948" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12987:12998" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="13013:13019" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="13070:13081" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="13104:13110" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="13152:13163" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="13181:13187" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="13244:13255" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="13284:13290" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="13335:13646" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="13377:13398" ph="" />
+              <marker date="1495518468137" expanded="true" signature="13403:13407" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="13416:13436" ph="" />
+              <marker date="1495518468137" expanded="true" signature="13444:13448" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="13452:13455" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="13459:13479" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="13484:13488" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="13494:13514" ph="" />
+              <marker date="1495518468137" expanded="true" signature="13523:13527" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="13536:13556" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="13565:13569" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="13576:13596" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="13603:13607" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="13617:13636" ph="}${" />
+              <marker date="1495518468137" expanded="true" signature="13778:13902" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="13941:14100" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="14207:14329" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="14394:14523" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="14682:14756" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="14802:14938" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="15045:15205" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="15738:16506" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="15826:16116" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="16182:16293" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="16359:16496" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="16792:16927" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="17034:17110" ph="select id=&quot;q... " />
+              <marker date="1495518468137" expanded="true" signature="17119:17694" ph="SELECT sk.se... success_killed" />
+              <marker date="1495518468137" expanded="true" signature="17961:18323" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="17996:18306" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="18738:20864" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="19352:19943" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="19424:19438" ph="com.mysql.jdbc.Driver" />
+              <marker date="1495518468137" expanded="true" signature="19482:19493" ph="jdbc:mysql://localhost:3306/seckill?useUnicode=true&amp;characterEncoding=utf-8" />
+              <marker date="1495518468137" expanded="true" signature="19534:19546" ph="root" />
+              <marker date="1495518468137" expanded="true" signature="19591:19607" ph="root" />
+              <marker date="1495518468137" expanded="true" signature="20059:20481" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="20599:20854" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="21083:21423" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="21426:21536" ph="@{...}" />
+              <marker date="1495518468137" expanded="true" signature="21684:21878" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="21694:21698" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="21723:21736" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="21780:21783" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="21935:22083" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="21945:21949" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="21976:21983" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="22161:22317" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="22219:22226" ph="val" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/share.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="261">
+            <caret line="9" column="87" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="9" selection-end-column="87" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SuccessKilledMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3393">
@@ -1249,7 +1523,149 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="87">
             <caret line="3" column="412" lean-forward="false" selection-start-line="3" selection-start-column="412" selection-end-line="3" selection-end-column="412" />
-            <folding />
+            <folding>
+              <marker date="1495518468137" expanded="true" signature="1960:6371" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2349:6296" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2394:2564" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2638:2796" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2817:2965" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2986:3149" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3225:3380" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3426:3565" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3614:3761" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3782:3936" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3992:4136" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4157:4292" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4344:4515" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4536:4695" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4753:4920" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4941:5109" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5130:5300" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5321:5488" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5509:5674" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5695:5861" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5882:6051" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="6109:6276" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="6308:6360" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="6525:6548" ph="CREATE DATAB... seckill" />
+              <marker date="1495518468137" expanded="true" signature="6583:7195" ph="CREATE TABLE... seckill" />
+              <marker date="1495518468137" expanded="true" signature="7210:7532" ph="insert into seckill" />
+              <marker date="1495518468137" expanded="true" signature="7558:7941" ph="create table... success_killed" />
+              <marker date="1495518468137" expanded="true" signature="8203:8219" ph="select versi... " />
+              <marker date="1495518468137" expanded="true" signature="8223:8239" ph="select @@ver... " />
+              <marker date="1495518468137" expanded="true" signature="9626:9679" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="10070:10077" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="10192:10369" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="10401:10412" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10429:10435" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10481:10492" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10519:10525" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10557:10568" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10585:10591" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10637:10648" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10675:10681" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10710:10721" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10734:10740" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10779:10790" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10809:10815" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10857:10868" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10886:10892" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10949:10960" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10989:10995" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="11028:11039" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="11054:11060" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="11105:11116" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="11139:11145" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="11190:11446" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="11222:11243" ph="" />
+              <marker date="1495518468137" expanded="true" signature="11248:11252" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="11261:11281" ph="" />
+              <marker date="1495518468137" expanded="true" signature="11288:11292" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="11301:11321" ph="" />
+              <marker date="1495518468137" expanded="true" signature="11328:11332" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="11337:11357" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="11364:11368" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="11378:11398" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="11406:11410" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="11417:11436" ph="}${" />
+              <marker date="1495518468137" expanded="true" signature="11519:11572" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="12004:12011" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="12147:12352" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="12384:12395" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12412:12418" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12464:12475" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12502:12508" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12537:12548" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12560:12566" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12604:12615" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12632:12638" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12666:12677" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12691:12697" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12736:12747" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12768:12774" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12815:12826" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12843:12849" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12904:12915" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12942:12948" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12987:12998" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="13013:13019" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="13070:13081" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="13104:13110" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="13152:13163" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="13181:13187" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="13244:13255" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="13284:13290" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="13335:13646" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="13377:13398" ph="" />
+              <marker date="1495518468137" expanded="true" signature="13403:13407" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="13416:13436" ph="" />
+              <marker date="1495518468137" expanded="true" signature="13444:13448" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="13452:13455" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="13459:13479" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="13484:13488" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="13494:13514" ph="" />
+              <marker date="1495518468137" expanded="true" signature="13523:13527" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="13536:13556" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="13565:13569" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="13576:13596" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="13603:13607" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="13617:13636" ph="}${" />
+              <marker date="1495518468137" expanded="true" signature="13778:13902" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="13941:14100" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="14207:14329" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="14394:14523" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="14682:14756" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="14802:14938" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="15045:15205" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="15738:16506" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="15826:16116" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="16182:16293" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="16359:16496" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="16792:16927" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="17034:17110" ph="select id=&quot;q... " />
+              <marker date="1495518468137" expanded="true" signature="17119:17694" ph="SELECT sk.se... success_killed" />
+              <marker date="1495518468137" expanded="true" signature="17961:18323" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="17996:18306" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="18738:20864" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="19352:19943" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="19424:19438" ph="com.mysql.jdbc.Driver" />
+              <marker date="1495518468137" expanded="true" signature="19482:19493" ph="jdbc:mysql://localhost:3306/seckill?useUnicode=true&amp;characterEncoding=utf-8" />
+              <marker date="1495518468137" expanded="true" signature="19534:19546" ph="root" />
+              <marker date="1495518468137" expanded="true" signature="19591:19607" ph="root" />
+              <marker date="1495518468137" expanded="true" signature="20059:20481" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="20599:20854" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="21083:21423" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="21426:21536" ph="@{...}" />
+              <marker date="1495518468137" expanded="true" signature="21684:21878" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="21694:21698" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="21723:21736" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="21780:21783" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="21935:22083" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="21945:21949" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="21976:21983" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="22161:22317" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="22219:22226" ph="val" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -1264,7 +1680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,17 +1688,6 @@
         <state relative-caret-position="174">
           <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="377">
-            <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1299,84 +1703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="134" column="19" lean-forward="false" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/entity/Seckill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Seckill#1;class#Seckill#0" expanded="false" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1331#1332#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1406#1407#0" expanded="true" />
-            <element signature="e#1463#1464#0" expanded="true" />
-            <element signature="e#1505#1506#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
-            <element signature="e#1629#1630#0" expanded="true" />
-            <element signature="e#1667#1668#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-            <element signature="e#1744#1745#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1847#1848#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-            <element signature="e#1910#2197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note/share.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="528">
-            <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,25 +1715,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/entity/SuccessKilled.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1415,74 +1722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="19" column="95" lean-forward="false" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#884#900#0" expanded="true" />
-            <element signature="e#942#955#0" expanded="true" />
-            <element signature="e#994#1008#0" expanded="true" />
-            <element signature="e#1051#1069#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com.suny.dao/SeckillMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <marker date="1495460877601" expanded="true" signature="211:442" ph="UPDATE secki... " />
-            <marker date="1495460877601" expanded="true" signature="531:619" ph="SELECT * FRO... seckill" />
-            <marker date="1495460877601" expanded="true" signature="874:988" ph="SELECT * FRO... seckill" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql/seckill.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/suny/dao/SeckillMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding>
-            <element signature="e#684#704#1" expanded="true" />
-            <element signature="e#713#761#1" expanded="true" />
-            <element signature="e#770#831#1" expanded="true" />
-            <element signature="e#935#957#1" expanded="true" />
-            <element signature="e#966#1019#1" expanded="true" />
-            <element signature="e#1139#1195#1" expanded="true" />
-            <element signature="e#1209#1224#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1495,18 +1734,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com.suny.dao/SuccessKilledMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="17" column="27" lean-forward="false" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <marker date="1495462253942" expanded="true" signature="250:362" ph="INSERT IGNOR... success_killed" />
-            <marker date="1495462253942" expanded="true" signature="565:1115" ph="SELECT sk.se... success_killed" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1515,26 +1742,319 @@
         <state relative-caret-position="374">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#658#678#1" expanded="true" />
-            <element signature="e#687#715#1" expanded="true" />
-            <element signature="e#724#801#1" expanded="true" />
-            <element signature="e#829#855#0" expanded="true" />
-            <element signature="e#829#855#0" expanded="true" />
-            <element signature="e#941#962#1" expanded="true" />
-            <element signature="e#971#999#1" expanded="true" />
-            <element signature="e#1008#1098#1" expanded="true" />
-            <element signature="e#1169#1195#0" expanded="true" />
+            <element signature="e#658#678#1" expanded="false" />
+            <element signature="e#687#715#1" expanded="false" />
+            <element signature="e#724#801#1" expanded="false" />
+            <element signature="e#829#855#0" expanded="false" />
+            <element signature="e#829#855#0" expanded="false" />
+            <element signature="e#941#962#1" expanded="false" />
+            <element signature="e#971#999#1" expanded="false" />
+            <element signature="e#1008#1098#1" expanded="false" />
+            <element signature="e#1169#1195#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/seckill.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/entity/SuccessKilled.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.suny.dao/suny/dao/SeckillMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.suny.dao/suny/dao/SuccessKilledMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1495460877601" expanded="true" signature="211:442" ph="UPDATE secki... " />
+            <marker date="1495460877601" expanded="true" signature="531:619" ph="SELECT * FRO... seckill" />
+            <marker date="1495460877601" expanded="true" signature="874:988" ph="SELECT * FRO... seckill" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/suny/dao/SuccessKilledMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <marker date="1495462253942" expanded="true" signature="250:362" ph="INSERT IGNOR... success_killed" />
+            <marker date="1495462253942" expanded="true" signature="565:1115" ph="SELECT sk.se... success_killed" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#926#942#0" expanded="true" />
+            <element signature="e#984#997#0" expanded="true" />
+            <element signature="e#1036#1050#0" expanded="true" />
+            <element signature="e#1093#1111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/share.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="9" column="87" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="9" selection-end-column="87" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SuccessKilledMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="121">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/suny/dao/SeckillMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/entity/Seckill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Seckill#1;class#Seckill#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="373">
+            <caret line="732" column="0" lean-forward="true" selection-start-line="732" selection-start-column="0" selection-end-line="732" selection-end-column="0" />
+            <folding>
+              <marker date="1495518468137" expanded="true" signature="1960:6371" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2349:6296" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2394:2564" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2638:2796" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2817:2965" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="2986:3149" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3225:3380" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3426:3565" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3614:3761" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3782:3936" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="3992:4136" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4157:4292" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4344:4515" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4536:4695" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4753:4920" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="4941:5109" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5130:5300" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5321:5488" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5509:5674" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5695:5861" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="5882:6051" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="6109:6276" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="6308:6360" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="6525:6548" ph="CREATE DATAB... seckill" />
+              <marker date="1495518468137" expanded="true" signature="6583:7195" ph="CREATE TABLE... seckill" />
+              <marker date="1495518468137" expanded="true" signature="7210:7532" ph="insert into seckill" />
+              <marker date="1495518468137" expanded="true" signature="7558:7941" ph="create table... success_killed" />
+              <marker date="1495518468137" expanded="true" signature="8203:8219" ph="select versi... " />
+              <marker date="1495518468137" expanded="true" signature="8223:8239" ph="select @@ver... " />
+              <marker date="1495518468137" expanded="true" signature="9626:9679" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="10070:10077" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="10192:10369" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="10401:10412" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10429:10435" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10481:10492" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10519:10525" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10557:10568" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10585:10591" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10637:10648" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10675:10681" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10710:10721" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10734:10740" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10779:10790" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10809:10815" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10857:10868" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10886:10892" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="10949:10960" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="10989:10995" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="11028:11039" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="11054:11060" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="11105:11116" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="11139:11145" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="11190:11446" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="11222:11243" ph="" />
+              <marker date="1495518468137" expanded="true" signature="11248:11252" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="11261:11281" ph="" />
+              <marker date="1495518468137" expanded="true" signature="11288:11292" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="11301:11321" ph="" />
+              <marker date="1495518468137" expanded="true" signature="11328:11332" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="11337:11357" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="11364:11368" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="11378:11398" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="11406:11410" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="11417:11436" ph="}${" />
+              <marker date="1495518468137" expanded="true" signature="11519:11572" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="12004:12011" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="12147:12352" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="12384:12395" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12412:12418" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12464:12475" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12502:12508" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12537:12548" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12560:12566" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12604:12615" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12632:12638" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12666:12677" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12691:12697" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12736:12747" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12768:12774" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12815:12826" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12843:12849" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12904:12915" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="12942:12948" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="12987:12998" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="13013:13019" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="13070:13081" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="13104:13110" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="13152:13163" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="13181:13187" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="13244:13255" ph=" { " />
+              <marker date="1495518468137" expanded="true" signature="13284:13290" ph=" }" />
+              <marker date="1495518468137" expanded="true" signature="13335:13646" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="13377:13398" ph="" />
+              <marker date="1495518468137" expanded="true" signature="13403:13407" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="13416:13436" ph="" />
+              <marker date="1495518468137" expanded="true" signature="13444:13448" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="13452:13455" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="13459:13479" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="13484:13488" ph="$" />
+              <marker date="1495518468137" expanded="true" signature="13494:13514" ph="" />
+              <marker date="1495518468137" expanded="true" signature="13523:13527" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="13536:13556" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="13565:13569" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="13576:13596" ph="}" />
+              <marker date="1495518468137" expanded="true" signature="13603:13607" ph="${" />
+              <marker date="1495518468137" expanded="true" signature="13617:13636" ph="}${" />
+              <marker date="1495518468137" expanded="true" signature="13778:13902" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="13941:14100" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="14207:14329" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="14394:14523" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="14682:14756" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="14802:14938" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="15045:15205" ph="/**...*/" />
+              <marker date="1495518468137" expanded="true" signature="15738:16506" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="15826:16116" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="16182:16293" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="16359:16496" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="16792:16927" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="17034:17110" ph="select id=&quot;q... " />
+              <marker date="1495518468137" expanded="true" signature="17119:17694" ph="SELECT sk.se... success_killed" />
+              <marker date="1495518468137" expanded="true" signature="17961:18323" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="17996:18306" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="18738:20864" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="19352:19943" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="19424:19438" ph="com.mysql.jdbc.Driver" />
+              <marker date="1495518468137" expanded="true" signature="19482:19493" ph="jdbc:mysql://localhost:3306/seckill?useUnicode=true&amp;characterEncoding=utf-8" />
+              <marker date="1495518468137" expanded="true" signature="19534:19546" ph="root" />
+              <marker date="1495518468137" expanded="true" signature="19591:19607" ph="root" />
+              <marker date="1495518468137" expanded="true" signature="20059:20481" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="20599:20854" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="21083:21423" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="21426:21536" ph="@{...}" />
+              <marker date="1495518468137" expanded="true" signature="21684:21878" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="21694:21698" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="21723:21736" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="21780:21783" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="21935:22083" ph="{...}" />
+              <marker date="1495518468137" expanded="true" signature="21945:21949" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="21976:21983" ph="val" />
+              <marker date="1495518468137" expanded="true" signature="22161:22317" ph="..." />
+              <marker date="1495518468137" expanded="true" signature="22219:22226" ph="val" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1584,7 +2104,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.36017317" />
               </list>
             </option>
           </splitter-proportions>
