@@ -1,6 +1,7 @@
 package com.suny.dto;
 
 import com.suny.entity.SuccessKilled;
+import com.suny.enums.SeckillStatEnum;
 
 /**
  * 封装秒杀后的结果,是否秒杀成功
@@ -17,18 +18,18 @@ public class SeckillExecution {
     private SuccessKilled successKilled;
 
     /*  秒杀成功返回的实体  */
-    public SeckillExecution(long seckillId, int state, String stateInfo, SuccessKilled successKilled) {
+    public SeckillExecution(long seckillId, SeckillStatEnum statEnum, SuccessKilled successKilled) {
         this.seckillId = seckillId;
-        this.state = state;
-        this.stateInfo = stateInfo;
+        this.state = statEnum.getState();
+        this.stateInfo = statEnum.getInfo();
         this.successKilled = successKilled;
     }
 
     /*  秒杀失败返回的实体  */
-    public SeckillExecution(long seckillId, int state, String stateInfo) {
+    public SeckillExecution(long seckillId, SeckillStatEnum statEnum, String stateInfo) {
         this.seckillId = seckillId;
-        this.state = state;
-        this.stateInfo = stateInfo;
+        this.state = statEnum.getState();
+        this.stateInfo = statEnum.getInfo();
     }
 
     public long getSeckillId() {
