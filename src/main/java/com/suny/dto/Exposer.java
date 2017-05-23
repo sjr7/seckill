@@ -1,5 +1,7 @@
 package com.suny.dto;
 
+import java.time.LocalDateTime;
+
 /**
  * 暴露秒杀地址接口
  * Created by 孙建荣 on 17-5-23.下午8:08
@@ -12,11 +14,11 @@ public class Exposer {
     /* id为seckillId的商品秒杀地址   */
     private long seckillId;
     /* 系统当前的时间   */
-    private long now;
+    private LocalDateTime now;
     /* 秒杀开启的时间   */
-    private long start;
+    private LocalDateTime start;
     /*  秒杀结束的时间  */
-    private long end;
+    private LocalDateTime end;
 
     public Exposer() {
     }
@@ -27,7 +29,7 @@ public class Exposer {
         this.seckillId = seckillId;
     }
 
-    public Exposer(boolean exposed, long seckillId, long now, long start, long end) {
+    public Exposer(boolean exposed, long seckillId, LocalDateTime now, LocalDateTime start, LocalDateTime end) {
         this.exposed = exposed;
         this.seckillId = seckillId;
         this.now = now;
@@ -64,27 +66,27 @@ public class Exposer {
         this.seckillId = seckillId;
     }
 
-    public long getNow() {
+    public LocalDateTime getNow() {
         return now;
     }
 
-    public void setNow(long now) {
+    public void setNow(LocalDateTime now) {
         this.now = now;
     }
 
-    public long getStart() {
+    public LocalDateTime getStart() {
         return start;
     }
 
-    public void setStart(long start) {
+    public void setStart(LocalDateTime start) {
         this.start = start;
     }
 
-    public long getEnd() {
+    public LocalDateTime getEnd() {
         return end;
     }
 
-    public void setEnd(long end) {
+    public void setEnd(LocalDateTime end) {
         this.end = end;
     }
 

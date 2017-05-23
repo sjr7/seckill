@@ -1,8 +1,11 @@
-package com.suny.service;
+package com.suny.service.interfaces;
 
 import com.suny.dto.Exposer;
 import com.suny.dto.SeckillExecution;
 import com.suny.entity.Seckill;
+import com.suny.exception.RepeatKillException;
+import com.suny.exception.SeckillCloseException;
+import com.suny.exception.SeckillException;
 
 import java.util.List;
 
@@ -38,7 +41,7 @@ public interface SeckillService {
      * @param md5   md5加密值
      * @return   根据不同的结果返回不同的实体信息
      */
-    SeckillExecution executeSeckill(long seckillId,long userPhone,String md5);
+    SeckillExecution executeSeckill(long seckillId,long userPhone,String md5)throws SeckillException,RepeatKillException,SeckillCloseException;
 
 }
 
