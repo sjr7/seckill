@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0f03f5f-8271-4cb2-8d84-de227c9b8ae7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/suny/enums/SeckillStatEnum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_typehandlers_jsr310_1_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/suny/service/SeckillServiceImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/jianrongsun.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/jianrongsun.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillExecution.java" afterPath="$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillExecution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seckill.iml" afterPath="$PROJECT_DIR$/seckill.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,28 +53,6 @@
         <option name="myItemId" value="seckill" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="success_killed" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="seckill@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="seckill" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="seckill" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -77,92 +61,107 @@
       <file leaf-file-name="SeckillService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/service/interfaces/SeckillService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="43" column="142" lean-forward="true" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="142" />
+            <state relative-caret-position="179">
+              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeckillServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SeckillServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="118" column="45" lean-forward="false" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+            <state relative-caret-position="-130">
+              <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
               <folding>
-                <element signature="e#848#863#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1400#1401#0" expanded="true" />
-                <element signature="e#1457#1458#0" expanded="true" />
-                <element signature="e#1659#1712#1" expanded="true" />
-                <element signature="e#1925#1974#1" expanded="true" />
-                <element signature="e#1951#1973#0" expanded="true" />
-                <element signature="e#1987#2032#1" expanded="true" />
-                <element signature="e#2011#2031#0" expanded="true" />
-                <element signature="e#2045#2089#1" expanded="true" />
-                <element signature="e#2315#2346#1" expanded="true" />
-                <element signature="e#2492#2529#1" expanded="true" />
-                <element signature="e#2506#2528#0" expanded="true" />
-                <element signature="e#2506#2528#0" expanded="true" />
-                <element signature="e#2506#2528#0" expanded="true" />
-                <element signature="e#2506#2528#0" expanded="true" />
-                <element signature="e#2572#2587#0" expanded="true" />
-                <element signature="e#2930#2960#0" expanded="true" />
-                <element signature="e#2930#2960#0" expanded="true" />
-                <element signature="e#2930#2960#0" expanded="true" />
-                <element signature="e#3103#3147#1" expanded="true" />
-                <element signature="e#3197#3263#1" expanded="true" />
-                <element signature="e#3502#3582#1" expanded="true" />
-                <element signature="e#3821#3914#1" expanded="true" />
-                <element signature="e#4193#4207#0" expanded="true" />
-                <element signature="e#4282#4323#0" expanded="true" />
-                <element signature="e#4309#4323#0" expanded="true" />
-                <element signature="e#4282#4323#0" expanded="true" />
+                <element signature="e#969#984#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1521#1522#0" expanded="true" />
+                <element signature="e#1578#1579#0" expanded="true" />
+                <element signature="e#1780#1833#1" expanded="true" />
+                <element signature="e#2046#2095#1" expanded="true" />
+                <element signature="e#2072#2094#0" expanded="true" />
+                <element signature="e#2108#2153#1" expanded="true" />
+                <element signature="e#2132#2152#0" expanded="true" />
+                <element signature="e#2166#2210#1" expanded="true" />
+                <element signature="e#2436#2467#1" expanded="true" />
+                <element signature="e#2613#2650#1" expanded="true" />
+                <element signature="e#2627#2649#0" expanded="true" />
+                <element signature="e#2627#2649#0" expanded="true" />
+                <element signature="e#2627#2649#0" expanded="true" />
+                <element signature="e#2627#2649#0" expanded="true" />
+                <element signature="e#2693#2708#0" expanded="true" />
+                <element signature="e#3070#3100#0" expanded="true" />
+                <element signature="e#3070#3100#0" expanded="true" />
+                <element signature="e#3070#3100#0" expanded="true" />
+                <element signature="e#3243#3287#1" expanded="true" />
+                <element signature="e#3337#3403#1" expanded="true" />
+                <element signature="e#3642#3722#1" expanded="true" />
+                <element signature="e#3961#4054#1" expanded="true" />
+                <element signature="e#4333#4347#0" expanded="true" />
+                <element signature="e#4422#4463#0" expanded="true" />
+                <element signature="e#4449#4463#0" expanded="true" />
+                <element signature="e#4422#4463#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeckillStatEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/enums/SeckillStatEnum.java">
+      <file leaf-file-name="SeckillMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#612#636#0" expanded="true" />
-                <element signature="e#667#686#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Exposer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dto/Exposer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="208">
+              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeckillExecution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillExecution.java">
+      <file leaf-file-name="SeckillServiceImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/suny/service/SeckillServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+            <state relative-caret-position="361">
+              <caret line="61" column="29" lean-forward="false" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#575#594#0" expanded="true" />
-                <element signature="e#621#639#0" expanded="true" />
-                <element signature="e#861#880#0" expanded="true" />
-                <element signature="e#907#925#0" expanded="true" />
+                <element signature="e#984#999#0" expanded="true" />
+                <element signature="e#1132#1192#1" expanded="true" />
+                <element signature="e#1160#1191#0" expanded="true" />
+                <element signature="e#1360#1382#1" expanded="true" />
+                <element signature="e#1391#1440#1" expanded="true" />
+                <element signature="e#1565#1587#1" expanded="true" />
+                <element signature="e#1596#1657#1" expanded="true" />
+                <element signature="e#1783#1805#1" expanded="true" />
+                <element signature="e#1814#1875#1" expanded="true" />
+                <element signature="e#1888#1907#0" expanded="true" />
+                <element signature="e#1923#1953#1" expanded="true" />
+                <element signature="e#1966#2014#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeckillMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <marker date="1495460877601" expanded="true" signature="211:442" ph="UPDATE secki... " />
+                <marker date="1495460877601" expanded="true" signature="531:607" ph="SELECT * FRO... seckill" />
+                <marker date="1495460877601" expanded="true" signature="531:619" ph="SELECT * FRO... seckill" />
+                <marker date="1495460877601" expanded="true" signature="874:988" ph="SELECT * FRO... seckill" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,9 +172,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="mybatis-generator-config" />
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -202,14 +202,12 @@
         <option value="$PROJECT_DIR$/sql/seckill.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/com.suny.dao/SeckillMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/dao/SuccessKilledMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/suny/dao/SuccessKilledMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com.suny.dao/SuccessKilledMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/suny/dao/SeckillMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/service/SeckillService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/exception/SeckillException.java" />
@@ -219,8 +217,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/suny/dto/Exposer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/service/interfaces/SeckillService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/enums/SeckillStatEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillExecution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/suny/service/SeckillServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -255,10 +258,10 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="677" />
-    <option name="y" value="50" />
+    <option name="x" value="496" />
+    <option name="y" value="24" />
     <option name="width" value="1424" />
-    <option name="height" value="995" />
+    <option name="height" value="1003" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -490,6 +493,36 @@
               <option name="myItemId" value="suny" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -512,6 +545,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.suny.service" />
       <recent name="com.suny.dao" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -541,111 +575,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SuccessKilledMapperTest.queryByIdWithSeckill">
-    <configuration default="false" name="SeckillMapperTest.queryById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.suny.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seckill" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.suny.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.suny.dao.SeckillMapperTest" />
-      <option name="METHOD_NAME" value="queryById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SeckillMapperTest.queryAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.suny.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seckill" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.suny.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.suny.dao.SeckillMapperTest" />
-      <option name="METHOD_NAME" value="queryAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SeckillMapperTest.reduceNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.suny.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seckill" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.suny.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.suny.dao.SeckillMapperTest" />
-      <option name="METHOD_NAME" value="reduceNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SuccessKilledMapperTest.insertSuccessKilled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.suny.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seckill" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.suny.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.suny.dao.SuccessKilledMapperTest" />
-      <option name="METHOD_NAME" value="insertSuccessKilled" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SeckillServiceImplTest.executeSeckill">
     <configuration default="false" name="SuccessKilledMapperTest.queryByIdWithSeckill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -659,6 +589,110 @@
       <option name="PACKAGE_NAME" value="com.suny.dao" />
       <option name="MAIN_CLASS_NAME" value="com.suny.dao.SuccessKilledMapperTest" />
       <option name="METHOD_NAME" value="queryByIdWithSeckill" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SeckillServiceImplTest.getSeckillList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.suny.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seckill" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.suny.service" />
+      <option name="MAIN_CLASS_NAME" value="com.suny.service.SeckillServiceImplTest" />
+      <option name="METHOD_NAME" value="getSeckillList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SeckillServiceImplTest.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.suny.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seckill" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.suny.service" />
+      <option name="MAIN_CLASS_NAME" value="com.suny.service.SeckillServiceImplTest" />
+      <option name="METHOD_NAME" value="getById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SeckillServiceImplTest.exportSeckillUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.suny.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seckill" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.suny.service" />
+      <option name="MAIN_CLASS_NAME" value="com.suny.service.SeckillServiceImplTest" />
+      <option name="METHOD_NAME" value="exportSeckillUrl" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SeckillServiceImplTest.executeSeckill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.suny.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seckill" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.suny.service" />
+      <option name="MAIN_CLASS_NAME" value="com.suny.service.SeckillServiceImplTest" />
+      <option name="METHOD_NAME" value="executeSeckill" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1124,19 +1158,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SeckillMapperTest.queryById" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SeckillMapperTest.queryAll" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SeckillMapperTest.reduceNumber" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SuccessKilledMapperTest.insertSuccessKilled" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SuccessKilledMapperTest.queryByIdWithSeckill" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SuccessKilledMapperTest.queryByIdWithSeckill" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.getSeckillList" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.getById" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.exportSeckillUrl" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.executeSeckill" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SuccessKilledMapperTest.queryByIdWithSeckill" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SuccessKilledMapperTest.insertSuccessKilled" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SeckillMapperTest.reduceNumber" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SeckillMapperTest.queryAll" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SeckillMapperTest.queryById" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.executeSeckill" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.exportSeckillUrl" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.getById" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.getSeckillList" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SuccessKilledMapperTest.queryByIdWithSeckill" />
       </list>
     </recent_temporary>
   </component>
@@ -1157,7 +1191,7 @@
       <workItem from="1495428786405" duration="25420000" />
       <workItem from="1495514675302" duration="8568000" />
       <workItem from="1495542776951" duration="691000" />
-      <workItem from="1495543502761" duration="4544000" />
+      <workItem from="1495543502761" duration="6339000" />
     </task>
     <task id="LOCAL-00001" summary="完成mybatis跟spring基本的配置文件，完善下readme">
       <created>1495467269379</created>
@@ -1177,39 +1211,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeckillMapperTest_queryAll - 2017.05.22 at 21h 49m 29s.xml">
-      <configuration name="SeckillMapperTest.queryAll" configurationId="JUnit" />
+    <history-entry file="SeckillServiceImplTest_executeSeckill - 2017.05.23 at 22h 50m 19s.xml">
+      <configuration name="SeckillServiceImplTest.executeSeckill" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeckillMapperTest_queryAll - 2017.05.22 at 21h 50m 27s.xml">
-      <configuration name="SeckillMapperTest.queryAll" configurationId="JUnit" />
+    <history-entry file="SeckillServiceImplTest_executeSeckill - 2017.05.23 at 22h 52m 50s.xml">
+      <configuration name="SeckillServiceImplTest.executeSeckill" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeckillMapperTest_reduceNumber - 2017.05.22 at 21h 52m 41s.xml">
-      <configuration name="SeckillMapperTest.reduceNumber" configurationId="JUnit" />
+    <history-entry file="SeckillServiceImplTest_executeSeckill - 2017.05.23 at 22h 54m 20s.xml">
+      <configuration name="SeckillServiceImplTest.executeSeckill" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuccessKilledMapperTest_insertSuccessKilled - 2017.05.22 at 21h 59m 48s.xml">
-      <configuration name="SuccessKilledMapperTest.insertSuccessKilled" configurationId="JUnit" />
+    <history-entry file="SeckillServiceImplTest_exportSeckillUrl - 2017.05.23 at 22h 41m 53s.xml">
+      <configuration name="SeckillServiceImplTest.exportSeckillUrl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuccessKilledMapperTest_insertSuccessKilled - 2017.05.22 at 22h 01m 33s.xml">
-      <configuration name="SuccessKilledMapperTest.insertSuccessKilled" configurationId="JUnit" />
+    <history-entry file="SeckillServiceImplTest_exportSeckillUrl - 2017.05.23 at 22h 47m 15s.xml">
+      <configuration name="SeckillServiceImplTest.exportSeckillUrl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuccessKilledMapperTest_insertSuccessKilled - 2017.05.22 at 22h 02m 15s.xml">
-      <configuration name="SuccessKilledMapperTest.insertSuccessKilled" configurationId="JUnit" />
+    <history-entry file="SeckillServiceImplTest_exportSeckillUrl - 2017.05.23 at 22h 48m 15s.xml">
+      <configuration name="SeckillServiceImplTest.exportSeckillUrl" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuccessKilledMapperTest_queryByIdWithSeckill - 2017.05.22 at 22h 02m 49s.xml">
-      <configuration name="SuccessKilledMapperTest.queryByIdWithSeckill" configurationId="JUnit" />
+    <history-entry file="SeckillServiceImplTest_getById - 2017.05.23 at 22h 40m 51s.xml">
+      <configuration name="SeckillServiceImplTest.getById" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuccessKilledMapperTest_queryByIdWithSeckill - 2017.05.22 at 22h 05m 58s.xml">
-      <configuration name="SuccessKilledMapperTest.queryByIdWithSeckill" configurationId="JUnit" />
+    <history-entry file="SeckillServiceImplTest_getSeckillList - 2017.05.23 at 22h 38m 40s.xml">
+      <configuration name="SeckillServiceImplTest.getSeckillList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuccessKilledMapperTest_queryByIdWithSeckill - 2017.05.22 at 22h 08m 44s.xml">
-      <configuration name="SuccessKilledMapperTest.queryByIdWithSeckill" configurationId="JUnit" />
+    <history-entry file="SeckillServiceImplTest_getSeckillList - 2017.05.23 at 22h 39m 24s.xml">
+      <configuration name="SeckillServiceImplTest.getSeckillList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SuccessKilledMapperTest_queryByIdWithSeckill - 2017.05.22 at 22h 10m 56s.xml">
-      <configuration name="SuccessKilledMapperTest.queryByIdWithSeckill" configurationId="JUnit" />
+    <history-entry file="SeckillServiceImplTest_getSeckillList - 2017.05.23 at 22h 39m 54s.xml">
+      <configuration name="SeckillServiceImplTest.getSeckillList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40749000" />
+    <option name="totallyTimeSpent" value="42544000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1221,43 +1255,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="677" y="50" width="1424" height="995" extended-state="0" />
+    <frame x="496" y="24" width="1424" height="1003" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5028986" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.49710146" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37173912" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37173912" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.84685713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31885713" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5805714" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31885713" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6707589" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66984504" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59833133" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27173913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5985748" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1310,9 +1344,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="startTime.isBefore(nowTime)" />
+        <watch expression="endTime.isAfter(nowTime)" />
+        <watch expression="startTime.isBefore(nowTime) || endTime.isAfter(nowTime)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1869,18 +1909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/afffba77/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/seckill.success_killed">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/suny/dao/SuccessKilledMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1922,26 +1950,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com.suny.dao/suny/dao/SeckillMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/com.suny.dao/suny/dao/SuccessKilledMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <marker date="1495460877601" expanded="true" signature="211:442" ph="UPDATE secki... " />
-            <marker date="1495460877601" expanded="true" signature="531:619" ph="SELECT * FRO... seckill" />
-            <marker date="1495460877601" expanded="true" signature="874:988" ph="SELECT * FRO... seckill" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/com/suny/dao/SuccessKilledMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -1990,13 +1998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -2183,32 +2184,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+        <state relative-caret-position="260">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/afffba77/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/seckill.seckill">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/service/interfaces/SeckillService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/enums/SeckillStatEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="43" column="142" lean-forward="true" selection-start-line="43" selection-start-column="77" selection-end-line="43" selection-end-column="142" />
-          <folding />
+        <state relative-caret-position="290">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#612#636#0" expanded="true" />
+            <element signature="e#667#686#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2234,55 +2237,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/enums/SeckillStatEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="201">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#612#636#0" expanded="true" />
-            <element signature="e#667#686#0" expanded="true" />
+            <marker date="1495460877601" expanded="true" signature="211:442" ph="UPDATE secki... " />
+            <marker date="1495460877601" expanded="true" signature="531:607" ph="SELECT * FRO... seckill" />
+            <marker date="1495460877601" expanded="true" signature="531:619" ph="SELECT * FRO... seckill" />
+            <marker date="1495460877601" expanded="true" signature="874:988" ph="SELECT * FRO... seckill" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/service/interfaces/SeckillService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="118" column="45" lean-forward="false" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+        <state relative-caret-position="-130">
+          <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
           <folding>
-            <element signature="e#848#863#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1659#1712#1" expanded="true" />
-            <element signature="e#1925#1974#1" expanded="true" />
-            <element signature="e#1951#1973#0" expanded="true" />
-            <element signature="e#1987#2032#1" expanded="true" />
-            <element signature="e#2011#2031#0" expanded="true" />
-            <element signature="e#2045#2089#1" expanded="true" />
-            <element signature="e#2315#2346#1" expanded="true" />
-            <element signature="e#2492#2529#1" expanded="true" />
-            <element signature="e#2506#2528#0" expanded="true" />
-            <element signature="e#2506#2528#0" expanded="true" />
-            <element signature="e#2506#2528#0" expanded="true" />
-            <element signature="e#2506#2528#0" expanded="true" />
-            <element signature="e#2572#2587#0" expanded="true" />
-            <element signature="e#2930#2960#0" expanded="true" />
-            <element signature="e#2930#2960#0" expanded="true" />
-            <element signature="e#2930#2960#0" expanded="true" />
-            <element signature="e#3103#3147#1" expanded="true" />
-            <element signature="e#3197#3263#1" expanded="true" />
-            <element signature="e#3502#3582#1" expanded="true" />
-            <element signature="e#3821#3914#1" expanded="true" />
-            <element signature="e#4193#4207#0" expanded="true" />
-            <element signature="e#4282#4323#0" expanded="true" />
-            <element signature="e#4309#4323#0" expanded="true" />
-            <element signature="e#4282#4323#0" expanded="true" />
+            <element signature="e#969#984#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="e#1780#1833#1" expanded="true" />
+            <element signature="e#2046#2095#1" expanded="true" />
+            <element signature="e#2072#2094#0" expanded="true" />
+            <element signature="e#2108#2153#1" expanded="true" />
+            <element signature="e#2132#2152#0" expanded="true" />
+            <element signature="e#2166#2210#1" expanded="true" />
+            <element signature="e#2436#2467#1" expanded="true" />
+            <element signature="e#2613#2650#1" expanded="true" />
+            <element signature="e#2627#2649#0" expanded="true" />
+            <element signature="e#2627#2649#0" expanded="true" />
+            <element signature="e#2627#2649#0" expanded="true" />
+            <element signature="e#2627#2649#0" expanded="true" />
+            <element signature="e#2693#2708#0" expanded="true" />
+            <element signature="e#3070#3100#0" expanded="true" />
+            <element signature="e#3070#3100#0" expanded="true" />
+            <element signature="e#3070#3100#0" expanded="true" />
+            <element signature="e#3243#3287#1" expanded="true" />
+            <element signature="e#3337#3403#1" expanded="true" />
+            <element signature="e#3642#3722#1" expanded="true" />
+            <element signature="e#3961#4054#1" expanded="true" />
+            <element signature="e#4333#4347#0" expanded="true" />
+            <element signature="e#4422#4463#0" expanded="true" />
+            <element signature="e#4449#4463#0" expanded="true" />
+            <element signature="e#4422#4463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/afffba77/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/seckill.seckill">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/afffba77/da0ae82b-95a0-44cf-ad9a-3b5855509cfc/seckill.success_killed">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/suny/service/SeckillServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="61" column="29" lean-forward="false" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+          <folding>
+            <element signature="e#984#999#0" expanded="true" />
+            <element signature="e#1132#1192#1" expanded="true" />
+            <element signature="e#1160#1191#0" expanded="true" />
+            <element signature="e#1360#1382#1" expanded="true" />
+            <element signature="e#1391#1440#1" expanded="true" />
+            <element signature="e#1565#1587#1" expanded="true" />
+            <element signature="e#1596#1657#1" expanded="true" />
+            <element signature="e#1783#1805#1" expanded="true" />
+            <element signature="e#1814#1875#1" expanded="true" />
+            <element signature="e#1888#1907#0" expanded="true" />
+            <element signature="e#1923#1953#1" expanded="true" />
+            <element signature="e#1966#2014#1" expanded="true" />
           </folding>
         </state>
       </provider>

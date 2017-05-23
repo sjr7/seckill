@@ -14,6 +14,8 @@ import com.suny.service.interfaces.SeckillService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.DigestUtils;
 
 import java.time.LocalDateTime;
@@ -22,6 +24,7 @@ import java.util.List;
 /**
  * Created by 孙建荣 on 17-5-23.下午9:30
  */
+@Service
 public class SeckillServiceImpl implements SeckillService {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
     /* 加入一个盐值，用于混淆*/
@@ -96,6 +99,7 @@ public class SeckillServiceImpl implements SeckillService {
      * @param md5       md5加密值
      * @return 根据不同的结果返回不同的实体信息
      */
+    @Transactional
     @Override
     public SeckillExecution executeSeckill(long seckillId, long userPhone, String md5) throws SeckillException {
         if (md5 == null || !md5.equals(getMd5(seckillId))) {
