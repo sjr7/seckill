@@ -747,3 +747,10 @@ public class SeckillMapperTest {
 + 在exception下建立基础异常以及子异常
 + 优化业务逻辑
 + 写枚举
++RESTFul
+ + RESTFul。
+   最常见的一种设计错误，就是URI包含动词。因为"资源"表示一种实体，所以应该是名词，URI不应该有动词，动词应该放在HTTP协议中。
++ 编写web.xml
++ 新建一个spring-web.xml
++ 创建controller
++ 建立dto下类
