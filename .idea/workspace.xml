@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0f03f5f-8271-4cb2-8d84-de227c9b8ae7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/suny/controller/SeckillController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-mvc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seckill.iml" afterPath="$PROJECT_DIR$/seckill.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/suny/controller/SeckillController.java" afterPath="$PROJECT_DIR$/src/main/java/com/suny/controller/SeckillController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillExecution.java" afterPath="$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillExecution.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,17 +54,14 @@
       <file leaf-file-name="SeckillController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/controller/SeckillController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="66" column="50" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="50" />
+            <state relative-caret-position="251">
+              <caret line="93" column="70" lean-forward="false" selection-start-line="93" selection-start-column="70" selection-end-line="93" selection-end-column="70" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#849#909#1" expanded="true" />
-                <element signature="e#877#908#0" expanded="true" />
-                <element signature="e#1247#1299#1" expanded="true" />
-                <element signature="e#1689#1750#1" expanded="true" />
-                <element signature="e#1935#1949#0" expanded="true" />
+                <element signature="e#3349#3435#1" expanded="true" />
+                <element signature="e#3584#3674#1" expanded="true" />
+                <element signature="e#3826#3908#1" expanded="true" />
+                <element signature="e#4057#4147#1" expanded="true" />
+                <element signature="e#4401#4451#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,7 +116,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/suny/dto/Exposer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/service/interfaces/SeckillService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/enums/SeckillStatEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillExecution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
@@ -134,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillExecution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/controller/SeckillController.java" />
       </list>
     </option>
@@ -169,9 +162,9 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1900" />
-    <option name="y" value="-923" />
-    <option name="width" value="1420" />
+    <option name="x" value="443" />
+    <option name="y" value="65" />
+    <option name="width" value="1295" />
     <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -1226,7 +1219,11 @@
       <workItem from="1495600747087" duration="1821000" />
       <workItem from="1495616537511" duration="2112000" />
       <workItem from="1495633123417" duration="1246000" />
-      <workItem from="1495634675057" duration="2117000" />
+      <workItem from="1495634675057" duration="2593000" />
+      <workItem from="1495692390760" duration="98000" />
+      <workItem from="1495695856746" duration="105000" />
+      <workItem from="1495696468565" duration="599000" />
+      <workItem from="1495700006972" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="完成mybatis跟spring基本的配置文件，完善下readme">
       <created>1495467269379</created>
@@ -1278,7 +1275,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50025000" />
+    <option name="totallyTimeSpent" value="52588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1290,7 +1287,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1900" y="-923" width="1420" height="967" extended-state="0" />
+    <frame x="443" y="65" width="1295" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1432,7 +1429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3393">
           <caret line="117" column="34" lean-forward="false" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1528,10 +1524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <marker date="1495462253942" expanded="true" signature="250:362" ph="INSERT IGNOR... success_killed" />
-            <marker date="1495462253942" expanded="true" signature="565:1115" ph="SELECT sk.se... success_killed" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1539,7 +1531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="5" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1622,18 +1613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillExecution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1798">
           <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1713,12 +1696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1495460877601" expanded="true" signature="211:442" ph="UPDATE secki... " />
-            <marker date="1495460877601" expanded="true" signature="531:607" ph="SELECT * FRO... seckill" />
-            <marker date="1495460877601" expanded="true" signature="531:619" ph="SELECT * FRO... seckill" />
-            <marker date="1495460877601" expanded="true" signature="874:988" ph="SELECT * FRO... seckill" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1744,7 +1721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1768,7 +1744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1801,19 +1776,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="e#843#862#0" expanded="true" />
+            <element signature="e#889#907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/controller/SeckillController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="66" column="50" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="50" />
+        <state relative-caret-position="251">
+          <caret line="93" column="70" lean-forward="false" selection-start-line="93" selection-start-column="70" selection-end-line="93" selection-end-column="70" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#849#909#1" expanded="true" />
-            <element signature="e#877#908#0" expanded="true" />
-            <element signature="e#1247#1299#1" expanded="true" />
-            <element signature="e#1689#1750#1" expanded="true" />
-            <element signature="e#1935#1949#0" expanded="true" />
+            <element signature="e#3349#3435#1" expanded="true" />
+            <element signature="e#3584#3674#1" expanded="true" />
+            <element signature="e#3826#3908#1" expanded="true" />
+            <element signature="e#4057#4147#1" expanded="true" />
+            <element signature="e#4401#4451#1" expanded="true" />
           </folding>
         </state>
       </provider>

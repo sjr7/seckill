@@ -26,7 +26,7 @@ public class SeckillExecution {
     }
 
     /*  秒杀失败返回的实体  */
-    public SeckillExecution(long seckillId, SeckillStatEnum statEnum, String stateInfo) {
+    public SeckillExecution(long seckillId, SeckillStatEnum statEnum) {
         this.seckillId = seckillId;
         this.state = statEnum.getState();
         this.stateInfo = statEnum.getInfo();
