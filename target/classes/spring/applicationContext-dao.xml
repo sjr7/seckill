@@ -30,7 +30,7 @@
         <!--注入数据库连接池-->
         <property name="dataSource" ref="dataSource"/>
         <!--配置mybatis全局配置文件-->
-        <property name="configLocation" value="mybatis-config.xml"/>
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
         <!--配置entity包,也就是实体类包，自动扫描,用于别名配置-->
         <property name="typeAliasesPackage" value="com.suny.entity"/>
         <!--配置需要扫描的mapper.xml文件-->
