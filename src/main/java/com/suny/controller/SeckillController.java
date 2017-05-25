@@ -64,7 +64,7 @@ public class SeckillController {
      */
     @RequestMapping(value = "/{seckillId}/exposer", method = RequestMethod.POST)
     @ResponseBody
-    public SeckillResult<Exposer> exposer(Long seckillId) {
+    public SeckillResult<Exposer> exposer(@PathVariable("seckillId") Long seckillId) {
         SeckillResult<Exposer> result;
         try {
             Exposer exposer = seckillService.exportSeckillUrl(seckillId);
@@ -91,25 +91,24 @@ public class SeckillController {
                                                    @CookieValue(value = "killPhone", required = false) Long userPhone) {
         // 如果用户的手机号码为空的说明没有填写手机号码进行秒杀
         if (userPhone == null) {
-            return new SeckillResult<SeckillExecution>(false, "没有注册");
+            return new SeckillResult<>(false, "没有注册");
         }
-        SeckillResult<SeckillExecution> result;
         // 根据用户的手机号码，秒杀商品的id跟md5进行秒杀商品,没异常就是秒杀成功
         try {
             SeckillExecution execution = seckillService.executeSeckill(seckillId, userPhone, md5);
-            return new SeckillResult<SeckillExecution>(true, execution);
+            return new SeckillResult<>(true, execution);
         } catch (RepeatKillException e1) {
             // 重复秒杀
             SeckillExecution execution = new SeckillExecution(seckillId, SeckillStatEnum.REPEAT_KILL);
-            return new SeckillResult<SeckillExecution>(false, execution);
+            return new SeckillResult<>(false, execution);
         } catch (SeckillCloseException e2) {
             // 秒杀关闭
             SeckillExecution execution = new SeckillExecution(seckillId, SeckillStatEnum.END);
-            return new SeckillResult<SeckillExecution>(false, execution);
+            return new SeckillResult<>(false, execution);
         } catch (SeckillException e) {
             // 不能判断的异常
             SeckillExecution execution = new SeckillExecution(seckillId, SeckillStatEnum.INNER_ERROR);
-            return new SeckillResult<SeckillExecution>(false, execution);
+            return new SeckillResult<>(false, execution);
         }
         // 如果有异常就是秒杀失败
     }
@@ -121,7 +120,7 @@ public class SeckillController {
      */
     public SeckillResult<LocalDateTime> time() {
         LocalDateTime localDateTime = LocalDateTime.now();
-        return new SeckillResult<LocalDateTime>(true, localDateTime);
+        return new SeckillResult<>(true, localDateTime);
     }
 
 
