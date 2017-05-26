@@ -62,16 +62,17 @@ public class SeckillController {
      * @param seckillId 秒杀商品的id
      * @return 根据用户秒杀的商品id进行业务逻辑判断，返回不同的json实体结果
      */
-    @RequestMapping(value = "/{seckillId}/exposer", method = RequestMethod.POST)
+    @RequestMapping(value = "/{seckillId}/exposer", method = RequestMethod.GET)
     @ResponseBody
     public SeckillResult<Exposer> exposer(@PathVariable("seckillId") Long seckillId) {
+        // 查询秒杀商品的结果
         SeckillResult<Exposer> result;
         try {
             Exposer exposer = seckillService.exportSeckillUrl(seckillId);
-            result = new SeckillResult<Exposer>(true, exposer);
+            result = new SeckillResult<>(true, exposer);
         } catch (Exception e) {
             e.printStackTrace();
-            result = new SeckillResult<Exposer>(false, e.getMessage());
+            result = new SeckillResult<>(false, e.getMessage());
         }
         return result;
     }
@@ -88,7 +89,7 @@ public class SeckillController {
     @ResponseBody
     public SeckillResult<SeckillExecution> execute(@PathVariable("seckillId") long seckillId,
                                                    @PathVariable("md5") String md5,
-                                                   @CookieValue(value = "killPhone", required = false) Long userPhone) {
+                                                   @CookieValue(value = "userPhone", required = false) Long userPhone) {
         // 如果用户的手机号码为空的说明没有填写手机号码进行秒杀
         if (userPhone == null) {
             return new SeckillResult<>(false, "没有注册");
@@ -118,6 +119,8 @@ public class SeckillController {
      *
      * @return 时间的json数据
      */
+    @RequestMapping(value = "/time/now", method = RequestMethod.GET)
+    @ResponseBody
     public SeckillResult<LocalDateTime> time() {
         LocalDateTime localDateTime = LocalDateTime.now();
         return new SeckillResult<>(true, localDateTime);

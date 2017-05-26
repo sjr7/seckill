@@ -2,6 +2,14 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.suny.dao.SeckillMapper">
+    <resultMap id="BaseResultMap" type="com.suny.entity.Seckill">
+        <id property="seckillId" column="seckill_id" javaType="Long" jdbcType="BIGINT"/>
+        <result property="name" column="name" javaType="String" jdbcType="VARCHAR"/>
+        <result property="number" column="number" javaType="Integer" jdbcType="VARCHAR"/>
+        <result property="startTime" column="start_time" javaType="java.time.LocalDateTime" jdbcType="TIMESTAMP"/>
+        <result property="endTime" column="end_time" javaType="java.time.LocalDateTime" jdbcType="TIMESTAMP"/>
+        <result property="createTIme" column="create_time" javaType="java.time.LocalDateTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
     <update id="reduceNumber">
         UPDATE seckill
         SET number = number - 1
@@ -14,8 +22,7 @@
     </update>
 
     <select id="queryById" resultType="com.suny.entity.Seckill">
-        SELECT
-            *
+        SELECT *
         FROM seckill AS s
         WHERE s.seckill_id = #{seckillId}
     </select>
@@ -27,9 +34,8 @@
     <!--s.create_time,-->
     <!--s.number,-->
     <!--s.success_killed-->
-    <select id="queryAll" resultType="com.suny.entity.Seckill">
-        SELECT
-            *
+    <select id="queryAll" resultMap="BaseResultMap">
+        SELECT *
         FROM seckill AS s
         ORDER BY create_time DESC
         LIMIT #{offset}, #{limit}

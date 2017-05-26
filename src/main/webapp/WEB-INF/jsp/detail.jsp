@@ -47,7 +47,7 @@
 
         <div class="modal-footer">
             <span id="killPhoneMessage" class="glyphicon"></span>
-            <button type="button" class="glyphicon">
+            <button type="button" id="killPhoneBtn" class="btn btn-success">
                 <span class="glyphicon glyphicon-phone"></span>
                 提交
             </button>
@@ -60,13 +60,17 @@
 <script src="${pageContext.request.contextPath}/resources/plugins/jquery.cookie.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/plugins/jquery.countdown.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/script/seckill.js"></script>
-<script>
+<script type="text/javascript">
     $(function () {
+        var startTimeVal = "${seckill.startTime.toLocalDate()} " + seckill.cloneZero("${seckill.startTime.toLocalTime()}");
+        var endTimeVal = "${seckill.endTime.toLocalDate()} " + seckill.cloneZero("${seckill.endTime.toLocalTime()}");
+        console.log("startTimeVal========" + startTimeVal);
+        console.log("endTimeVal========" + endTimeVal);
         // 传入参数
         seckill.detail.init({
             seckillId:${seckill.seckillId},
-            startTime:${seckill.startTime.toLocalTime()},
-            endTime:${seckill.endTime.toLocalTime()}
+            startTime: startTimeVal,
+            endTime: endTimeVal
         })
     })
 </script>

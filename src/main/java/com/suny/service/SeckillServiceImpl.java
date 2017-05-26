@@ -64,26 +64,34 @@ public class SeckillServiceImpl implements SeckillService {
      */
     @Override
     public Exposer exportSeckillUrl(long seckillId) {
+        // 根据秒杀的ID去查询是否存在这个商品
         Seckill seckill = seckillMapper.queryById(seckillId);
         if (seckill == null) {
             logger.warn("查询不到这个秒杀产品的记录");
             return new Exposer(false, seckillId);
         }
-        if (seckill != null) {
-            // 判断是否还没到秒杀时间或者是过了秒杀时间
-            LocalDateTime startTime = seckill.getStartTime();
-            LocalDateTime endTime = seckill.getEndTime();
-            LocalDateTime nowTime = LocalDateTime.now();
-            if (startTime.isBefore(nowTime) || endTime.isAfter(nowTime)) {
-                return new Exposer(false, seckillId, nowTime, startTime, endTime);
-            }
-
+        // 判断是否还没到秒杀时间或者是过了秒杀时间
+        LocalDateTime startTime = seckill.getStartTime();
+        LocalDateTime endTime = seckill.getEndTime();
+        LocalDateTime nowTime = LocalDateTime.now();
+        //   开始时间大于现在的时候说明没有开始秒杀活动    秒杀活动结束时间小于现在的时间说明秒杀已经结束了
+       /* if (!nowTime.isAfter(startTime)) {
+            logger.info("现在的时间不在开始时间后面，未开启秒杀");
+            return new Exposer(false, seckillId, nowTime, startTime, endTime);
+        }
+        if (!nowTime.isBefore(endTime)) {
+            logger.info("现在的时间不在结束的时间之前，可以进行秒杀");
+            return new Exposer(false, seckillId, nowTime, startTime, endTime);
+        }*/
+        if(nowTime.isAfter(startTime) && nowTime.isBefore(endTime)){
             //秒杀开启，返回秒杀商品的id,用给接口加密的md5
             String md5 = getMd5(seckillId);
             return new Exposer(true, md5, seckillId);
         }
+        return new Exposer(false, seckillId, nowTime, startTime, endTime);
 
-        return null;
+
+
     }
 
     private String getMd5(long seckillId) {
