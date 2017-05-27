@@ -1642,7 +1642,7 @@
       <workItem from="1495860771418" duration="1180000" />
       <workItem from="1495862889016" duration="6730000" />
       <workItem from="1495889679571" duration="590000" />
-      <workItem from="1495890371445" duration="4755000" />
+      <workItem from="1495890371445" duration="4763000" />
     </task>
     <task id="LOCAL-00001" summary="完成mybatis跟spring基本的配置文件，完善下readme">
       <created>1495467269379</created>
@@ -1679,7 +1679,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495897387530</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="引入redis来进行高速读取">
+      <created>1495897404151</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1495897404151</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1715,7 +1722,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111019000" />
+    <option name="totallyTimeSpent" value="111027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
