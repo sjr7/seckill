@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0f03f5f-8271-4cb2-8d84-de227c9b8ae7" name="Default" comment="引入redis来进行高速读取">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/produce.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/suny/dao/cache/RedisDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/suny/dao/cache/RedisDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
+    <list default="true" id="f0f03f5f-8271-4cb2-8d84-de227c9b8ae7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seckill.iml" afterPath="$PROJECT_DIR$/seckill.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/suny/dao/SeckillMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/suny/dao/SeckillMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-dao.xml" />
@@ -1661,7 +1642,7 @@
       <workItem from="1495860771418" duration="1180000" />
       <workItem from="1495862889016" duration="6730000" />
       <workItem from="1495889679571" duration="590000" />
-      <workItem from="1495890371445" duration="4703000" />
+      <workItem from="1495890371445" duration="4755000" />
     </task>
     <task id="LOCAL-00001" summary="完成mybatis跟spring基本的配置文件，完善下readme">
       <created>1495467269379</created>
@@ -1691,7 +1672,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495810545751</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="引入redis来进行高速读取">
+      <created>1495897387530</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1495897387530</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1727,7 +1715,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110967000" />
+    <option name="totallyTimeSpent" value="111019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
