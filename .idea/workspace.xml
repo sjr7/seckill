@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0f03f5f-8271-4cb2-8d84-de227c9b8ae7" name="Default" comment="">
+    <list default="true" id="f0f03f5f-8271-4cb2-8d84-de227c9b8ae7" name="Default" comment="引入redis来进行高速读取">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sql/produce.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/suny/dao/cache/RedisDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/suny/dao/cache/RedisDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/seckill_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/da0ae82b-95a0-44cf-ad9a-3b5855509cfc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/suny/controller/SeckillController.java" afterPath="$PROJECT_DIR$/src/main/java/com/suny/controller/SeckillController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seckill.iml" afterPath="$PROJECT_DIR$/seckill.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/localDataTime.tag" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/localDataTime.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/suny/dao/SeckillMapper.xml" afterPath="$PROJECT_DIR$/target/classes/com/suny/dao/SeckillMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-dao.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,49 +87,248 @@
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="seckill" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SeckillController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/controller/SeckillController.java">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="245">
+                <caret line="755" column="9" lean-forward="true" selection-start-line="755" selection-start-column="9" selection-end-line="755" selection-end-column="9" />
+                <folding>
+                  <marker date="1495896860615" expanded="true" signature="1960:6371" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="2349:6296" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="2394:2564" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="2638:2796" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="2817:2965" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="2986:3149" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="3225:3380" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="3426:3565" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="3614:3761" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="3782:3936" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="3992:4136" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="4157:4292" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="4344:4515" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="4536:4695" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="4753:4920" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="4941:5109" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="5130:5300" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="5321:5488" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="5509:5674" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="5695:5861" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="5882:6051" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="6109:6276" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="6308:6360" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="6525:6548" ph="CREATE DATAB... seckill" />
+                  <marker date="1495896860615" expanded="true" signature="6583:7195" ph="CREATE TABLE... seckill" />
+                  <marker date="1495896860615" expanded="true" signature="7210:7532" ph="insert into seckill" />
+                  <marker date="1495896860615" expanded="true" signature="7558:7941" ph="create table... success_killed" />
+                  <marker date="1495896860615" expanded="true" signature="8203:8219" ph="select versi... " />
+                  <marker date="1495896860615" expanded="true" signature="8223:8239" ph="select @@ver... " />
+                  <marker date="1495896860615" expanded="false" signature="9626:9679" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="10070:10077" ph="{...}" />
+                  <marker date="1495896860615" expanded="true" signature="10192:10369" ph="{...}" />
+                  <marker date="1495896860615" expanded="false" signature="10401:10412" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="10429:10435" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="10481:10492" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="10519:10525" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="10557:10568" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="10585:10591" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="10637:10648" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="10675:10681" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="10710:10721" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="10734:10740" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="10779:10790" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="10809:10815" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="10857:10868" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="10886:10892" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="10949:10960" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="10989:10995" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="11028:11039" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="11054:11060" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="11105:11116" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="11139:11145" ph=" }" />
+                  <marker date="1495896860615" expanded="true" signature="11190:11446" ph="{...}" />
+                  <marker date="1495896860615" expanded="false" signature="11222:11243" ph="" />
+                  <marker date="1495896860615" expanded="false" signature="11248:11252" ph="$" />
+                  <marker date="1495896860615" expanded="false" signature="11261:11281" ph="" />
+                  <marker date="1495896860615" expanded="false" signature="11288:11292" ph="$" />
+                  <marker date="1495896860615" expanded="false" signature="11301:11321" ph="" />
+                  <marker date="1495896860615" expanded="false" signature="11328:11332" ph="${" />
+                  <marker date="1495896860615" expanded="false" signature="11337:11357" ph="}" />
+                  <marker date="1495896860615" expanded="false" signature="11364:11368" ph="${" />
+                  <marker date="1495896860615" expanded="false" signature="11378:11398" ph="}" />
+                  <marker date="1495896860615" expanded="false" signature="11406:11410" ph="${" />
+                  <marker date="1495896860615" expanded="false" signature="11417:11436" ph="}${" />
+                  <marker date="1495896860615" expanded="false" signature="11519:11572" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="12004:12011" ph="{...}" />
+                  <marker date="1495896860615" expanded="true" signature="12147:12352" ph="{...}" />
+                  <marker date="1495896860615" expanded="false" signature="12384:12395" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="12412:12418" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="12464:12475" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="12502:12508" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="12537:12548" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="12560:12566" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="12604:12615" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="12632:12638" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="12666:12677" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="12691:12697" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="12736:12747" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="12768:12774" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="12815:12826" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="12843:12849" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="12904:12915" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="12942:12948" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="12987:12998" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="13013:13019" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="13070:13081" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="13104:13110" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="13152:13163" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="13181:13187" ph=" }" />
+                  <marker date="1495896860615" expanded="false" signature="13244:13255" ph=" { " />
+                  <marker date="1495896860615" expanded="false" signature="13284:13290" ph=" }" />
+                  <marker date="1495896860615" expanded="true" signature="13335:13646" ph="{...}" />
+                  <marker date="1495896860615" expanded="false" signature="13377:13398" ph="" />
+                  <marker date="1495896860615" expanded="false" signature="13403:13407" ph="$" />
+                  <marker date="1495896860615" expanded="false" signature="13416:13436" ph="" />
+                  <marker date="1495896860615" expanded="false" signature="13444:13448" ph="$" />
+                  <marker date="1495896860615" expanded="false" signature="13452:13455" ph="${" />
+                  <marker date="1495896860615" expanded="false" signature="13459:13479" ph="}" />
+                  <marker date="1495896860615" expanded="false" signature="13484:13488" ph="$" />
+                  <marker date="1495896860615" expanded="false" signature="13494:13514" ph="" />
+                  <marker date="1495896860615" expanded="false" signature="13523:13527" ph="${" />
+                  <marker date="1495896860615" expanded="false" signature="13536:13556" ph="}" />
+                  <marker date="1495896860615" expanded="false" signature="13565:13569" ph="${" />
+                  <marker date="1495896860615" expanded="false" signature="13576:13596" ph="}" />
+                  <marker date="1495896860615" expanded="false" signature="13603:13607" ph="${" />
+                  <marker date="1495896860615" expanded="false" signature="13617:13636" ph="}${" />
+                  <marker date="1495896860615" expanded="false" signature="13778:13902" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="13941:14100" ph="/**...*/" />
+                  <marker date="1495896860615" expanded="true" signature="14207:14329" ph="/**...*/" />
+                  <marker date="1495896860615" expanded="true" signature="14394:14523" ph="/**...*/" />
+                  <marker date="1495896860615" expanded="false" signature="14682:14756" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="14802:14938" ph="/**...*/" />
+                  <marker date="1495896860615" expanded="true" signature="15045:15205" ph="/**...*/" />
+                  <marker date="1495896860615" expanded="true" signature="15738:16506" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="15826:16116" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="16182:16293" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="16359:16496" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="16726:17693" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="16792:16927" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="17109:17682" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="17961:18323" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="17996:18306" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="18738:20864" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="19352:19943" ph="..." />
+                  <marker date="1495896860615" expanded="false" signature="19424:19438" ph="com.mysql.jdbc.Driver" />
+                  <marker date="1495896860615" expanded="false" signature="19482:19493" ph="jdbc:mysql://localhost:3306/seckill?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false" />
+                  <marker date="1495896860615" expanded="false" signature="19534:19546" ph="root" />
+                  <marker date="1495896860615" expanded="false" signature="19591:19607" ph="root" />
+                  <marker date="1495896860615" expanded="true" signature="20059:20481" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="20599:20854" ph="..." />
+                  <marker date="1495896860615" expanded="false" signature="21083:21423" ph="..." />
+                  <marker date="1495896860615" expanded="true" signature="21426:21536" ph="@{...}" />
+                  <marker date="1495896860615" expanded="true" signature="21684:21878" ph="{...}" />
+                  <marker date="1495896860615" expanded="false" signature="21694:21698" ph="val" />
+                  <marker date="1495896860615" expanded="false" signature="21723:21736" ph="val" />
+                  <marker date="1495896860615" expanded="false" signature="21780:21783" ph="val" />
+                  <marker date="1495896860615" expanded="true" signature="21935:22083" ph="{...}" />
+                  <marker date="1495896860615" expanded="false" signature="21945:21949" ph="val" />
+                  <marker date="1495896860615" expanded="false" signature="21976:21983" ph="val" />
+                  <marker date="1495896860615" expanded="true" signature="22139:22316" ph="{...}" />
+                  <marker date="1495896860615" expanded="false" signature="22149:22162" ph="val" />
+                  <marker date="1495896860615" expanded="false" signature="22219:22226" ph="val" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeckillMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="106" column="94" lean-forward="true" selection-start-line="106" selection-start-column="94" selection-end-line="106" selection-end-column="94" />
+            <state relative-caret-position="297">
+              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
               <folding>
-                <element signature="e#3318#3404#1" expanded="true" />
-                <element signature="e#3537#3627#1" expanded="true" />
+                <marker date="1495897200689" expanded="true" signature="901:1132" ph="UPDATE secki... " />
+                <marker date="1495897200689" expanded="true" signature="1221:1297" ph="SELECT * FRO... seckill" />
+                <marker date="1495897200689" expanded="true" signature="1541:1643" ph="SELECT * FRO... seckill" />
+                <marker date="1495897200689" expanded="true" signature="1744:1987" ph="CALL execute... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeckillServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SeckillMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="produce.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql/produce.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisDaoTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/suny/dao/cache/RedisDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeckillServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+            <state relative-caret-position="288">
+              <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding>
-                <element signature="e#2743#2774#1" expanded="true" />
+                <element signature="e#1005#1020#0" expanded="true" />
+                <element signature="e#2092#2141#1" expanded="true" />
+                <element signature="e#2504#2553#1" expanded="true" />
+                <element signature="e#2530#2552#0" expanded="true" />
+                <element signature="e#2562#2607#1" expanded="true" />
+                <element signature="e#2586#2606#0" expanded="true" />
+                <element signature="e#2616#2660#1" expanded="true" />
+                <element signature="e#3212#3243#1" expanded="true" />
+                <element signature="e#3444#3481#1" expanded="true" />
+                <element signature="e#3458#3480#0" expanded="true" />
+                <element signature="e#3458#3480#0" expanded="true" />
+                <element signature="e#3458#3480#0" expanded="true" />
+                <element signature="e#3458#3480#0" expanded="true" />
+                <element signature="e#3524#3539#0" expanded="true" />
+                <element signature="e#3897#3927#0" expanded="true" />
+                <element signature="e#3897#3927#0" expanded="true" />
+                <element signature="e#3897#3927#0" expanded="true" />
+                <element signature="e#4070#4114#1" expanded="true" />
+                <element signature="e#5361#5441#1" expanded="true" />
+                <element signature="e#5638#5704#1" expanded="true" />
+                <element signature="e#5971#6064#1" expanded="true" />
+                <marker date="1495896564313" expanded="false" signature="1895:1902" ph="val" />
+                <marker date="1495896564313" expanded="false" signature="4166:4169" ph="val" />
+                <marker date="1495896564313" expanded="false" signature="4476:4479" ph="val" />
+                <marker date="1495896564313" expanded="false" signature="4795:4808" ph="val" />
+                <marker date="1495896564313" expanded="false" signature="5169:5181" ph="message" />
+                <marker date="1495896564313" expanded="false" signature="5279:5283" ph="${" />
+                <marker date="1495896564313" expanded="false" signature="5285:5297" ph="message" />
+                <marker date="1495896564313" expanded="false" signature="5297:5298" ph="}&quot;)" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seckill.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="71" column="36" lean-forward="true" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -129,11 +340,11 @@
       <list>
         <option value="mybatis-generator-config" />
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="JavaScript File" />
         <option value="Jsp File" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -174,7 +385,6 @@
         <option value="$PROJECT_DIR$/sql/seckill.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/com.suny.dao/SeckillMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/dao/SuccessKilledMapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/suny/dao/SuccessKilledMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com.suny.dao/SuccessKilledMapper.xml" />
@@ -187,13 +397,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/suny/service/interfaces/SeckillService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/enums/SeckillStatEnum.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/suny/service/SeckillServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/dto/SeckillExecution.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/tag.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/note/share.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/LocalData.tag" />
@@ -201,14 +408,21 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/entity/Seckill.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/localDataTime.tag" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/controller/SeckillController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suny/dao/cache/RedisDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/suny/dao/cache/RedisDaoTest.java" />
+        <option value="$PROJECT_DIR$/sql/produce.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml" />
       </list>
     </option>
   </component>
@@ -253,9 +467,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-4" />
-    <option name="width" value="1920" />
-    <option name="height" value="1031" />
+    <option name="x" value="-3" />
+    <option name="y" value="-29" />
+    <option name="width" value="1926" />
+    <option name="height" value="1112" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -275,8 +490,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -417,116 +633,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="time" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="time" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LocalDateTime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -716,108 +822,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-3.3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-3.3.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -838,32 +842,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seckill" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -918,6 +896,36 @@
               <option name="myItemId" value="suny" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seckill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suny" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -945,7 +953,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -959,31 +967,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="note" />
+              <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-    <property name="settings.editor.splitter.proportion" value="0.22123894" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.splitter.proportion" value="0.22091311" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36017317" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="MySQL&#10;HSQLDB" />
-    <property name="SearchEverywhereHistoryKey" value="web.xml&#9;FILE&#9;file:///home/jianrongsun/IdeaProjects/seckill/src/main/webapp/WEB-INF/web.xml&#10;MOdelMap&#9;PSI&#9;JAVA://org.springframework.ui.ModelMap&#10;ModelAndView&#9;PSI&#9;JAVA://org.springframework.web.servlet.ModelAndView&#10;MOdelAndView&#9;FILE&#9;jar:///home/jianrongsun/.m2/repository/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar!/org/springframework/web/servlet/ModelAndView.class&#10;shar&#9;FILE&#9;file:///home/jianrongsun/IdeaProjects/seckill/note/share.md" />
+    <property name="SearchEverywhereHistoryKey" value="dao&#9;FILE&#9;file:///home/jianrongsun/IdeaProjects/seckill/src/main/resources/spring/applicationContext-dao.xml&#10;pom&#9;FILE&#9;file:///home/jianrongsun/IdeaProjects/seckill/pom.xml&#10;web.xml&#9;FILE&#9;file:///home/jianrongsun/IdeaProjects/seckill/src/main/webapp/WEB-INF/web.xml&#10;MOdelMap&#9;PSI&#9;JAVA://org.springframework.ui.ModelMap&#10;ModelAndView&#9;PSI&#9;JAVA://org.springframework.web.servlet.ModelAndView&#10;MOdelAndView&#9;FILE&#9;jar:///home/jianrongsun/.m2/repository/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE.jar!/org/springframework/web/servlet/ModelAndView.class&#10;shar&#9;FILE&#9;file:///home/jianrongsun/IdeaProjects/seckill/note/share.md" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/taglibs/standard/1.1.2/standard-1.1.2.jar!/" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.suny.dao.cache" />
       <recent name="com.suny.service" />
       <recent name="com.suny.dao" />
     </key>
@@ -1020,33 +1028,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
-    <configuration default="false" name="SuccessKilledMapperTest.queryByIdWithSeckill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.suny.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="seckill" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.suny.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.suny.dao.SuccessKilledMapperTest" />
-      <option name="METHOD_NAME" value="queryByIdWithSeckill" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.RedisDaoTest.getSeckill">
     <configuration default="false" name="SeckillServiceImplTest.getSeckillList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1138,6 +1120,32 @@
       <option name="PACKAGE_NAME" value="com.suny.service" />
       <option name="MAIN_CLASS_NAME" value="com.suny.service.SeckillServiceImplTest" />
       <option name="METHOD_NAME" value="executeSeckill" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="RedisDaoTest.getSeckill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.suny.dao.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="seckill" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.suny.dao.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.suny.dao.cache.RedisDaoTest" />
+      <option name="METHOD_NAME" value="getSeckill" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1605,19 +1613,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SuccessKilledMapperTest.queryByIdWithSeckill" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.getSeckillList" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.getById" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.exportSeckillUrl" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.executeSeckill" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.getSeckillList" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.getById" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.exportSeckillUrl" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.executeSeckill" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.RedisDaoTest.getSeckill" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.executeSeckill" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.exportSeckillUrl" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.getById" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.getSeckillList" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SuccessKilledMapperTest.queryByIdWithSeckill" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RedisDaoTest.getSeckill" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.executeSeckill" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.exportSeckillUrl" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.getById" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SeckillServiceImplTest.getSeckillList" />
       </list>
     </recent_temporary>
   </component>
@@ -1648,7 +1656,12 @@
       <workItem from="1495696468565" duration="599000" />
       <workItem from="1495700006972" duration="6319000" />
       <workItem from="1495715669423" duration="8574000" />
-      <workItem from="1495736334737" duration="30920000" />
+      <workItem from="1495736334737" duration="31227000" />
+      <workItem from="1495859936257" duration="341000" />
+      <workItem from="1495860771418" duration="1180000" />
+      <workItem from="1495862889016" duration="6730000" />
+      <workItem from="1495889679571" duration="590000" />
+      <workItem from="1495890371445" duration="4703000" />
     </task>
     <task id="LOCAL-00001" summary="完成mybatis跟spring基本的配置文件，完善下readme">
       <created>1495467269379</created>
@@ -1671,18 +1684,25 @@
       <option name="project" value="LOCAL" />
       <updated>1495725235656</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修复重大java8时间传递到页面全部无法解析bug">
+      <created>1495810545751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1495810545751</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeckillServiceImplTest_executeSeckill - 2017.05.23 at 22h 50m 19s.xml">
-      <configuration name="SeckillServiceImplTest.executeSeckill" configurationId="JUnit" />
+    <history-entry file="RedisDaoTest_getSeckill - 2017.05.27 at 17h 26m 26s.xml">
+      <configuration name="RedisDaoTest.getSeckill" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeckillServiceImplTest_executeSeckill - 2017.05.23 at 22h 52m 50s.xml">
-      <configuration name="SeckillServiceImplTest.executeSeckill" configurationId="JUnit" />
+    <history-entry file="RedisDaoTest_getSeckill - 2017.05.27 at 17h 29m 53s.xml">
+      <configuration name="RedisDaoTest.getSeckill" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SeckillServiceImplTest_executeSeckill - 2017.05.23 at 22h 54m 20s.xml">
-      <configuration name="SeckillServiceImplTest.executeSeckill" configurationId="JUnit" />
+    <history-entry file="RedisDaoTest_getSeckill - 2017.05.27 at 17h 34m 03s.xml">
+      <configuration name="RedisDaoTest.getSeckill" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SeckillServiceImplTest_exportSeckillUrl - 2017.05.23 at 22h 41m 53s.xml">
       <configuration name="SeckillServiceImplTest.exportSeckillUrl" configurationId="JUnit" />
@@ -1707,7 +1727,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97116000" />
+    <option name="totallyTimeSpent" value="110967000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1719,7 +1739,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1031" extended-state="6" />
+    <frame x="-3" y="-29" width="1926" height="1112" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1733,12 +1753,12 @@
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37147102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24977127" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45485714" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6109134" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31885713" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284055" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1746,17 +1766,17 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25705793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59785205" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2451967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59833133" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1805,7 +1825,9 @@
     <MESSAGE value="完成mybatis跟spring基本的配置文件，完善下readme" />
     <MESSAGE value="完成基本的Service接口设计以及几个要使用的异常设计" />
     <MESSAGE value="自定义tag标签解析java8时间" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义tag标签解析java8时间" />
+    <MESSAGE value="修复重大java8时间传递到页面全部无法解析bug" />
+    <MESSAGE value="引入redis来进行高速读取" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入redis来进行高速读取" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1813,19 +1835,16 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js</url>
           <line>110</line>
-          <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js</url>
           <line>111</line>
-          <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js</url>
           <line>112</line>
-          <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1890,25 +1909,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java</url>
-          <line>85</line>
+          <line>101</line>
           <properties />
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java</url>
-          <line>87</line>
+          <line>103</line>
           <properties />
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java</url>
-          <line>88</line>
+          <line>104</line>
           <properties />
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java</url>
-          <line>90</line>
+          <line>106</line>
           <properties />
           <option name="timeStamp" value="110" />
         </line-breakpoint>
@@ -1916,7 +1935,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="111" />
+      <option name="time" value="119" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -1925,9 +1944,7 @@
         <watch expression="nowTime.isAfter(startTime) &amp;&amp; nowTime.isBefore(endTime)" />
       </configuration>
       <configuration name="JUnit">
-        <watch expression="startTime.isBefore(nowTime)" />
-        <watch expression="endTime.isAfter(nowTime)" />
-        <watch expression="startTime.isBefore(nowTime) || endTime.isAfter(nowTime)" />
+        <watch expression="redisDao.getSeckill(id)" />
       </configuration>
     </watches-manager>
   </component>
@@ -1936,42 +1953,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/suny/dao/SeckillMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/exception/RepeatKillException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/exception/SeckillCloseException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/exception/SeckillException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/enums/SeckillStatEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -1979,27 +1960,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1798">
-          <caret line="61" column="20" lean-forward="false" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/suny/service/SeckillServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1015">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2035,28 +1999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1363">
           <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-          <folding>
-            <element signature="e#516#517#0" expanded="false" />
-            <element signature="e#546#547#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#631#632#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-            <element signature="e#684#685#0" expanded="false" />
-            <element signature="e#719#720#0" expanded="false" />
-            <element signature="e#751#752#0" expanded="false" />
-            <element signature="e#783#784#0" expanded="false" />
-            <element signature="e#811#812#0" expanded="false" />
-            <element signature="e#887#888#0" expanded="false" />
-            <element signature="e#950#1099#0" expanded="false" />
-            <element signature="e#950#1099#0" expanded="false" />
-            <element signature="e#950#1099#0" expanded="false" />
-            <element signature="e#950#1099#0" expanded="false" />
-            <element signature="e#950#1099#0" expanded="false" />
-            <element signature="e#950#1099#0" expanded="false" />
-            <element signature="e#950#1099#0" expanded="false" />
-            <element signature="e#950#1099#0" expanded="false" />
-            <element signature="e#950#1099#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2064,10 +2006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="e#843#862#0" expanded="false" />
-            <element signature="e#889#907#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2082,7 +2020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2090,15 +2027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2107,61 +2035,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="677">
             <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="21750">
-            <caret line="755" column="9" lean-forward="false" selection-start-line="755" selection-start-column="9" selection-end-line="755" selection-end-column="9" />
-            <folding>
-              <marker date="1495617172750" expanded="true" signature="1960:6371" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="2349:6296" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="2394:2564" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="2638:2796" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="2817:2965" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="2986:3149" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="3225:3380" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="3426:3565" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="3614:3761" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="3782:3936" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="3992:4136" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="4157:4292" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="4344:4515" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="4536:4695" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="4753:4920" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="4941:5109" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="5130:5300" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="5321:5488" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="5509:5674" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="5695:5861" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="5882:6051" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="6109:6276" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="6308:6360" ph="..." />
-              <marker date="1495617172750" expanded="false" signature="13778:13902" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="13941:14100" ph="/**...*/" />
-              <marker date="1495617172750" expanded="true" signature="14207:14329" ph="/**...*/" />
-              <marker date="1495617172750" expanded="true" signature="14394:14523" ph="/**...*/" />
-              <marker date="1495617172750" expanded="false" signature="14682:14756" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="14802:14938" ph="/**...*/" />
-              <marker date="1495617172750" expanded="true" signature="15045:15205" ph="/**...*/" />
-              <marker date="1495617172750" expanded="true" signature="16726:17693" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="16792:16927" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="17109:17682" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="17961:18323" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="17996:18306" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="18738:20864" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="19352:19943" ph="..." />
-              <marker date="1495617172750" expanded="false" signature="19424:19438" ph="com.mysql.jdbc.Driver" />
-              <marker date="1495617172750" expanded="false" signature="19482:19493" ph="jdbc:mysql://localhost:3306/seckill?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false" />
-              <marker date="1495617172750" expanded="false" signature="19534:19546" ph="root" />
-              <marker date="1495617172750" expanded="false" signature="19591:19607" ph="root" />
-              <marker date="1495617172750" expanded="true" signature="20059:20481" ph="..." />
-              <marker date="1495617172750" expanded="true" signature="20599:20854" ph="..." />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -2178,7 +2051,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="487" column="21" lean-forward="true" selection-start-line="487" selection-start-column="21" selection-end-line="487" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2186,7 +2058,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2194,7 +2065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2202,7 +2072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2210,7 +2079,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2935">
           <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2218,7 +2086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2226,7 +2093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2234,7 +2100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2242,7 +2107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2250,7 +2114,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1450">
           <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2258,7 +2121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2266,7 +2128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2282,7 +2143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="1297" column="4" lean-forward="false" selection-start-line="1297" selection-start-column="4" selection-end-line="1297" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2290,7 +2150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2298,7 +2157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2306,7 +2164,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="12" column="122" lean-forward="true" selection-start-line="12" selection-start-column="122" selection-end-line="12" selection-end-column="122" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2319,19 +2176,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding>
-            <marker date="1495776093371" expanded="true" signature="901:1132" ph="UPDATE secki... " />
-            <marker date="1495776093371" expanded="true" signature="1221:1297" ph="SELECT * FRO... seckill" />
-            <marker date="1495776093371" expanded="true" signature="1541:1643" ph="SELECT * FRO... seckill" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2339,7 +2183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
           <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2347,7 +2190,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="3" column="72" lean-forward="false" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2355,7 +2197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="34" column="12" lean-forward="false" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2363,10 +2204,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
-          <folding>
-            <element signature="e#7706#7724#0" expanded="true" />
-            <element signature="e#7732#7741#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2374,7 +2211,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="332" column="0" lean-forward="false" selection-start-line="332" selection-start-column="0" selection-end-line="332" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2387,44 +2223,300 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/controller/SeckillController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="106" column="94" lean-forward="true" selection-start-line="106" selection-start-column="94" selection-end-line="106" selection-end-column="94" />
+        <state relative-caret-position="2581">
+          <caret line="106" column="94" lean-forward="false" selection-start-line="106" selection-start-column="94" selection-end-line="106" selection-end-column="94" />
           <folding>
-            <element signature="e#3318#3404#1" expanded="true" />
-            <element signature="e#3537#3627#1" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/detail.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="71" column="36" lean-forward="true" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="2059">
+          <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/script/seckill.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="138" column="19" lean-forward="true" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+        <state relative-caret-position="29">
+          <caret line="138" column="19" lean-forward="false" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/cache/RedisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="48" column="7" lean-forward="false" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="137" column="19" lean-forward="false" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/service/SeckillServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        <state relative-caret-position="288">
+          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding>
-            <element signature="e#2743#2774#1" expanded="true" />
+            <element signature="e#1005#1020#0" expanded="true" />
+            <element signature="e#2092#2141#1" expanded="true" />
+            <element signature="e#2504#2553#1" expanded="true" />
+            <element signature="e#2530#2552#0" expanded="true" />
+            <element signature="e#2562#2607#1" expanded="true" />
+            <element signature="e#2586#2606#0" expanded="true" />
+            <element signature="e#2616#2660#1" expanded="true" />
+            <element signature="e#3212#3243#1" expanded="true" />
+            <element signature="e#3444#3481#1" expanded="true" />
+            <element signature="e#3458#3480#0" expanded="true" />
+            <element signature="e#3458#3480#0" expanded="true" />
+            <element signature="e#3458#3480#0" expanded="true" />
+            <element signature="e#3458#3480#0" expanded="true" />
+            <element signature="e#3524#3539#0" expanded="true" />
+            <element signature="e#3897#3927#0" expanded="true" />
+            <element signature="e#3897#3927#0" expanded="true" />
+            <element signature="e#3897#3927#0" expanded="true" />
+            <element signature="e#4070#4114#1" expanded="true" />
+            <element signature="e#5361#5441#1" expanded="true" />
+            <element signature="e#5638#5704#1" expanded="true" />
+            <element signature="e#5971#6064#1" expanded="true" />
+            <marker date="1495896564313" expanded="false" signature="1895:1902" ph="val" />
+            <marker date="1495896564313" expanded="false" signature="4166:4169" ph="val" />
+            <marker date="1495896564313" expanded="false" signature="4476:4479" ph="val" />
+            <marker date="1495896564313" expanded="false" signature="4795:4808" ph="val" />
+            <marker date="1495896564313" expanded="false" signature="5169:5181" ph="message" />
+            <marker date="1495896564313" expanded="false" signature="5279:5283" ph="${" />
+            <marker date="1495896564313" expanded="false" signature="5285:5297" ph="message" />
+            <marker date="1495896564313" expanded="false" signature="5297:5298" ph="}&quot;)" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/produce.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="245">
+            <caret line="755" column="9" lean-forward="true" selection-start-line="755" selection-start-column="9" selection-end-line="755" selection-end-column="9" />
+            <folding>
+              <marker date="1495896860615" expanded="true" signature="1960:6371" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="2349:6296" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="2394:2564" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="2638:2796" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="2817:2965" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="2986:3149" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="3225:3380" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="3426:3565" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="3614:3761" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="3782:3936" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="3992:4136" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="4157:4292" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="4344:4515" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="4536:4695" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="4753:4920" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="4941:5109" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="5130:5300" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="5321:5488" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="5509:5674" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="5695:5861" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="5882:6051" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="6109:6276" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="6308:6360" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="6525:6548" ph="CREATE DATAB... seckill" />
+              <marker date="1495896860615" expanded="true" signature="6583:7195" ph="CREATE TABLE... seckill" />
+              <marker date="1495896860615" expanded="true" signature="7210:7532" ph="insert into seckill" />
+              <marker date="1495896860615" expanded="true" signature="7558:7941" ph="create table... success_killed" />
+              <marker date="1495896860615" expanded="true" signature="8203:8219" ph="select versi... " />
+              <marker date="1495896860615" expanded="true" signature="8223:8239" ph="select @@ver... " />
+              <marker date="1495896860615" expanded="false" signature="9626:9679" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="10070:10077" ph="{...}" />
+              <marker date="1495896860615" expanded="true" signature="10192:10369" ph="{...}" />
+              <marker date="1495896860615" expanded="false" signature="10401:10412" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="10429:10435" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="10481:10492" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="10519:10525" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="10557:10568" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="10585:10591" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="10637:10648" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="10675:10681" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="10710:10721" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="10734:10740" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="10779:10790" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="10809:10815" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="10857:10868" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="10886:10892" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="10949:10960" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="10989:10995" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="11028:11039" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="11054:11060" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="11105:11116" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="11139:11145" ph=" }" />
+              <marker date="1495896860615" expanded="true" signature="11190:11446" ph="{...}" />
+              <marker date="1495896860615" expanded="false" signature="11222:11243" ph="" />
+              <marker date="1495896860615" expanded="false" signature="11248:11252" ph="$" />
+              <marker date="1495896860615" expanded="false" signature="11261:11281" ph="" />
+              <marker date="1495896860615" expanded="false" signature="11288:11292" ph="$" />
+              <marker date="1495896860615" expanded="false" signature="11301:11321" ph="" />
+              <marker date="1495896860615" expanded="false" signature="11328:11332" ph="${" />
+              <marker date="1495896860615" expanded="false" signature="11337:11357" ph="}" />
+              <marker date="1495896860615" expanded="false" signature="11364:11368" ph="${" />
+              <marker date="1495896860615" expanded="false" signature="11378:11398" ph="}" />
+              <marker date="1495896860615" expanded="false" signature="11406:11410" ph="${" />
+              <marker date="1495896860615" expanded="false" signature="11417:11436" ph="}${" />
+              <marker date="1495896860615" expanded="false" signature="11519:11572" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="12004:12011" ph="{...}" />
+              <marker date="1495896860615" expanded="true" signature="12147:12352" ph="{...}" />
+              <marker date="1495896860615" expanded="false" signature="12384:12395" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="12412:12418" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="12464:12475" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="12502:12508" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="12537:12548" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="12560:12566" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="12604:12615" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="12632:12638" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="12666:12677" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="12691:12697" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="12736:12747" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="12768:12774" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="12815:12826" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="12843:12849" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="12904:12915" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="12942:12948" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="12987:12998" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="13013:13019" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="13070:13081" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="13104:13110" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="13152:13163" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="13181:13187" ph=" }" />
+              <marker date="1495896860615" expanded="false" signature="13244:13255" ph=" { " />
+              <marker date="1495896860615" expanded="false" signature="13284:13290" ph=" }" />
+              <marker date="1495896860615" expanded="true" signature="13335:13646" ph="{...}" />
+              <marker date="1495896860615" expanded="false" signature="13377:13398" ph="" />
+              <marker date="1495896860615" expanded="false" signature="13403:13407" ph="$" />
+              <marker date="1495896860615" expanded="false" signature="13416:13436" ph="" />
+              <marker date="1495896860615" expanded="false" signature="13444:13448" ph="$" />
+              <marker date="1495896860615" expanded="false" signature="13452:13455" ph="${" />
+              <marker date="1495896860615" expanded="false" signature="13459:13479" ph="}" />
+              <marker date="1495896860615" expanded="false" signature="13484:13488" ph="$" />
+              <marker date="1495896860615" expanded="false" signature="13494:13514" ph="" />
+              <marker date="1495896860615" expanded="false" signature="13523:13527" ph="${" />
+              <marker date="1495896860615" expanded="false" signature="13536:13556" ph="}" />
+              <marker date="1495896860615" expanded="false" signature="13565:13569" ph="${" />
+              <marker date="1495896860615" expanded="false" signature="13576:13596" ph="}" />
+              <marker date="1495896860615" expanded="false" signature="13603:13607" ph="${" />
+              <marker date="1495896860615" expanded="false" signature="13617:13636" ph="}${" />
+              <marker date="1495896860615" expanded="false" signature="13778:13902" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="13941:14100" ph="/**...*/" />
+              <marker date="1495896860615" expanded="true" signature="14207:14329" ph="/**...*/" />
+              <marker date="1495896860615" expanded="true" signature="14394:14523" ph="/**...*/" />
+              <marker date="1495896860615" expanded="false" signature="14682:14756" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="14802:14938" ph="/**...*/" />
+              <marker date="1495896860615" expanded="true" signature="15045:15205" ph="/**...*/" />
+              <marker date="1495896860615" expanded="true" signature="15738:16506" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="15826:16116" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="16182:16293" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="16359:16496" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="16726:17693" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="16792:16927" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="17109:17682" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="17961:18323" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="17996:18306" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="18738:20864" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="19352:19943" ph="..." />
+              <marker date="1495896860615" expanded="false" signature="19424:19438" ph="com.mysql.jdbc.Driver" />
+              <marker date="1495896860615" expanded="false" signature="19482:19493" ph="jdbc:mysql://localhost:3306/seckill?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false" />
+              <marker date="1495896860615" expanded="false" signature="19534:19546" ph="root" />
+              <marker date="1495896860615" expanded="false" signature="19591:19607" ph="root" />
+              <marker date="1495896860615" expanded="true" signature="20059:20481" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="20599:20854" ph="..." />
+              <marker date="1495896860615" expanded="false" signature="21083:21423" ph="..." />
+              <marker date="1495896860615" expanded="true" signature="21426:21536" ph="@{...}" />
+              <marker date="1495896860615" expanded="true" signature="21684:21878" ph="{...}" />
+              <marker date="1495896860615" expanded="false" signature="21694:21698" ph="val" />
+              <marker date="1495896860615" expanded="false" signature="21723:21736" ph="val" />
+              <marker date="1495896860615" expanded="false" signature="21780:21783" ph="val" />
+              <marker date="1495896860615" expanded="true" signature="21935:22083" ph="{...}" />
+              <marker date="1495896860615" expanded="false" signature="21945:21949" ph="val" />
+              <marker date="1495896860615" expanded="false" signature="21976:21983" ph="val" />
+              <marker date="1495896860615" expanded="true" signature="22139:22316" ph="{...}" />
+              <marker date="1495896860615" expanded="false" signature="22149:22162" ph="val" />
+              <marker date="1495896860615" expanded="false" signature="22219:22226" ph="val" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/suny/dao/SeckillMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <marker date="1495897200689" expanded="true" signature="901:1132" ph="UPDATE secki... " />
+            <marker date="1495897200689" expanded="true" signature="1221:1297" ph="SELECT * FRO... seckill" />
+            <marker date="1495897200689" expanded="true" signature="1541:1643" ph="SELECT * FRO... seckill" />
+            <marker date="1495897200689" expanded="true" signature="1744:1987" ph="CALL execute... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suny/dao/SeckillMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/suny/dao/cache/RedisDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

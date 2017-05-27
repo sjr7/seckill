@@ -129,6 +129,23 @@
             <artifactId>spring-test</artifactId>
             <version>4.2.7.RELEASE</version>
         </dependency>
+        <!--导入连接redis的JAR包-->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <!--添加序列化依赖-->
+        <dependency>
+            <groupId>com.dyuproject.protostuff</groupId>
+            <artifactId>protostuff-core</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dyuproject.protostuff</groupId>
+            <artifactId>protostuff-runtime</artifactId>
+            <version>1.1.1</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>seckill</finalName>

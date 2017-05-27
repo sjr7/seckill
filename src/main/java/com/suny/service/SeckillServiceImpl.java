@@ -2,6 +2,7 @@ package com.suny.service;
 
 import com.suny.dao.SeckillMapper;
 import com.suny.dao.SuccessKilledMapper;
+import com.suny.dao.cache.RedisDao;
 import com.suny.dto.Exposer;
 import com.suny.dto.SeckillExecution;
 import com.suny.entity.Seckill;
@@ -35,6 +36,9 @@ public class SeckillServiceImpl implements SeckillService {
     @Autowired
     private SuccessKilledMapper successKilledMapper;
 
+    @Autowired
+    private RedisDao redisDao;
+
     /**
      * 查询全部的秒杀记录.
      *
@@ -65,11 +69,23 @@ public class SeckillServiceImpl implements SeckillService {
     @Override
     public Exposer exportSeckillUrl(long seckillId) {
         // 根据秒杀的ID去查询是否存在这个商品
-        Seckill seckill = seckillMapper.queryById(seckillId);
+       /* Seckill seckill = seckillMapper.queryById(seckillId);
         if (seckill == null) {
             logger.warn("查询不到这个秒杀产品的记录");
             return new Exposer(false, seckillId);
+        }*/
+        Seckill seckill = redisDao.getSeckill(seckillId);
+        if (seckill == null) {
+            // 访问数据库读取数据
+            seckill = seckillMapper.queryById(seckillId);
+            if (seckill == null) {
+                return new Exposer(false, seckillId);
+            } else {
+                // 放入redis
+                redisDao.putSeckill(seckill);
+            }
         }
+
         // 判断是否还没到秒杀时间或者是过了秒杀时间
         LocalDateTime startTime = seckill.getStartTime();
         LocalDateTime endTime = seckill.getEndTime();
@@ -83,13 +99,12 @@ public class SeckillServiceImpl implements SeckillService {
             logger.info("现在的时间不在结束的时间之前，可以进行秒杀");
             return new Exposer(false, seckillId, nowTime, startTime, endTime);
         }*/
-        if(nowTime.isAfter(startTime) && nowTime.isBefore(endTime)){
+        if (nowTime.isAfter(startTime) && nowTime.isBefore(endTime)) {
             //秒杀开启，返回秒杀商品的id,用给接口加密的md5
             String md5 = getMd5(seckillId);
             return new Exposer(true, md5, seckillId);
         }
         return new Exposer(false, seckillId, nowTime, startTime, endTime);
-
 
 
     }
@@ -100,7 +115,7 @@ public class SeckillServiceImpl implements SeckillService {
     }
 
     /**
-     * 执行秒杀操作，有可能是失败的，失败我们就抛出异常
+     * 执行秒杀操作，失败的，失败我们就抛出异常
      *
      * @param seckillId 秒杀的商品ID
      * @param userPhone 手机号码
@@ -117,12 +132,12 @@ public class SeckillServiceImpl implements SeckillService {
         // 执行秒杀业务逻辑
         LocalDateTime nowTIme = LocalDateTime.now();
 
-        try {
+       /* try {
             //执行减库存操作
             int reduceNumber = seckillMapper.reduceNumber(seckillId, nowTIme);
             if (reduceNumber <= 0) {
-                logger.warn("灭有更新数据库记录，说明秒杀结束");
-                throw new SeckillException("seckill is closed");
+                logger.warn("没有更新数据库记录，说明秒杀结束");
+                throw new SeckillCloseException("seckill is closed");
             } else {
                 // 这里至少减少的数量不为0了，秒杀成功了就增加一个秒杀成功详细
                 int insertCount = successKilledMapper.insertSuccessKilled(seckillId, userPhone);
@@ -141,6 +156,28 @@ public class SeckillServiceImpl implements SeckillService {
             logger.error(e.getMessage(), e);
             // 把编译期异常转换为运行时异常
             throw new SeckillException("seckill inner error : " + e.getMessage());
+        }*/
+
+        try {
+            // 记录购买行为
+            int insertCount = successKilledMapper.insertSuccessKilled(seckillId, userPhone);
+            if (insertCount <= 0) {
+                // 重复秒杀
+                throw new RepeatKillException("seckill repeated");
+            } else {
+                // 减库存 ，热点商品的竞争
+                int reduceNumber = seckillMapper.reduceNumber(seckillId, nowTIme);
+                if (reduceNumber <= 0) {
+                    logger.warn("没有更新数据库记录，说明秒杀结束");
+                    throw new SeckillCloseException("seckill is closed");
+                } else {
+                    // 秒杀成功了，返回那条插入成功秒杀的信息  进行commit
+                    SuccessKilled successKilled = successKilledMapper.queryByIdWithSeckill(seckillId, userPhone);
+                    return new SeckillExecution(seckillId, SeckillStatEnum.SUCCESS, successKilled);
+                }
+            }
+        } catch (SeckillCloseException | RepeatKillException e1) {
+            throw e1;
         }
 
     }

@@ -754,3 +754,18 @@ public class SeckillMapperTest {
 + 新建一个spring-web.xml
 + 创建controller
 + 建立dto下类
+
++ redis的安装
+  + 下载后解压   `make `
+   + `sudo make install`
+   + `redis-server`
+   + 'redis-cli -p 6379'
++ 导入jedis jar包
++ 建包 cache
+  +  RedisDao
++ 添加`protostuff-core`序列化
++ `protostuff-runtime`
++ 写两个方法
++ 在spring-dao中注入redisDao
++ 写存储过程
++ 编写 killProduce()

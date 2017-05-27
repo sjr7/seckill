@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.Param;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by 孙建荣 on 17-5-22.下午7:37
@@ -35,4 +36,10 @@ public interface SeckillMapper {
      * @return 符合偏移量查出来的数据个数
      */
     List<Seckill> queryAll(@Param("offset") int offset, @Param("limit") int limit);
+
+    /**
+     *  使用储存过程执行秒杀
+     * @param paramMap
+     */
+    void killByProcedure(Map<String,Object> paramMap);
 }
