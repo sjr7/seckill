@@ -261,6 +261,39 @@ select @@version;
  我们可以看到在这三个字段有一个小差别，那就是给`start_time`,`end_time`,`create_time`三个字段都添加一个默认值，然后执行数据库语句就没问题了
  
 ---
+####  这里我们需要修改下`web.xml`中的servlet版本为`3.0`
+打开`WEB-INF`下的`web.xml`,修改为以下代码:
+```xml
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0"
+         metadata-complete="true">
+    <!--用maven创建的web-app需要修改servlet的版本为3.0-->
+```
+修改的原因有以下几点:  
+   * 高版本的Servlet支持更多的特性,更方便我们的Coding，特别是支持注解这一特性
+   * 在`Servlet2.3`中新加入了`Listener`接口的实现，,我们可以使用`Listener`引入`Spring`的`ContextLoaderListener`  
+
+举个栗子:  
+  + 在`Servlet2.3`以前我们这样配置`ContextLoaderListener`:
+```xml
+<servlet>
+ <servlet-name>context</servlet-name>
+ <servlet-class>org.springframework.context.ContextLoaderServlet</servlet-class>
+ <load-on-startup>1</load-on-startup>
+</servlet>
+```
+ + 在`Servlet2.3`以后可以使用`Listener`配置，也就是我们项目中使用的方法
+ ````xml
+<listener>
+ <listener-class>org.springframework.context.ContextLoaderListener</listener-class>
+</listener>
+````
+两种方法的效果都是一样的，主要不要同时使用，否则会报错的  
+
+
 #### 建立实体类
  - 首先建立`SuccessKilled`  秒杀状态表
 ```java
@@ -620,6 +653,7 @@ jdbc.url=jdbc:mysql://localhost:3306/seckill?useUnicode=true&characterEncoding=u
 ```xml
 
 <?xml version="1.0" encoding="UTF-8"?>
+<!--suppress SpringFacetInspection -->
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
@@ -724,23 +758,11 @@ public class SeckillMapperTest {
  List<Seckill> queryAll(@Param("offset") int offset, @Param("limit") int limit);
 
 ```  
-2016-5-23 13:46：28
+#### 2016-5-23 13:46：28
 
 ---
+### Java高并发秒杀API之Service层 
 
-
-
-- 修改web.xml中的servlet版本为3.0的
-- 建立数据库表
-- 建立dao跟entity
-- 建立mybatis-config.xml
-- 在resource下建立mapper包
-- 建立spring的配置文件
-
- + 首先先写spring-dao.xml
-     + 配置dataSource
-       + jdbc.properties
-       
 + 建立dto等包
 + 写service
 + 在dto下建立两个相关类
