@@ -96,7 +96,10 @@ public class SeckillController {
         }
         // 根据用户的手机号码，秒杀商品的id跟md5进行秒杀商品,没异常就是秒杀成功
         try {
-            SeckillExecution execution = seckillService.executeSeckill(seckillId, userPhone, md5);
+            // 这里换成储存过程
+
+//            SeckillExecution execution = seckillService.executeSeckill(seckillId, userPhone, md5);
+            SeckillExecution execution = seckillService.executeSeckillProcedure(seckillId, userPhone, md5);
             return new SeckillResult<>(true, execution);
         } catch (RepeatKillException e1) {
             // 重复秒杀
