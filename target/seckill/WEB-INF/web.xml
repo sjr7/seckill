@@ -1,0 +1,28 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0"
+         metadata-complete="true">
+    <!--用maven创建的web-app需要修改servlet的版本为3.0-->
+
+    <servlet>
+        <servlet-name>seckill-dispatchServlet</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <!--配置springmvc的配置文件-->
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:spring/applicationContext-*.xml</param-value>
+        </init-param>
+        <load-on-startup>
+            1
+        </load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>seckill-dispatchServlet</servlet-name>
+        <!--直接拦截所有请求，不再采用spring2.0的/*或者*.do方式-->
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

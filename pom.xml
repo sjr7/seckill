@@ -146,6 +146,13 @@
             <artifactId>protostuff-runtime</artifactId>
             <version>1.1.1</version>
         </dependency>
+
+        <!--导入apache工具类-->
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2.2</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>seckill</finalName>

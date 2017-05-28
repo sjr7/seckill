@@ -768,4 +768,8 @@ public class SeckillMapperTest {
 + 写两个方法
 + 在spring-dao中注入redisDao
 + 写存储过程
-+ 编写 killProduce()
++ 编写 killProduce() dao
++ 编写 killProduce() service
++ 编写 killProduce() service test
++ 编写 killProduce() controller
+
