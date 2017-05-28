@@ -595,7 +595,7 @@ public class SeckillServiceImplTest {
 测试的话如果每个方法测试都通过就说明通过,如果报错了话就仔细看下哪一步错了检查下  
 ### 上一篇  [(一)Java高并发秒杀API之业务分析与DAO层](../note/note1.md)
 
-###下一篇   [(三)Java高并发秒杀API之web层](../note/note3.md)
+###  下一篇   [(三)Java高并发秒杀API之web层](../note/note3.md)
   
 ---
 

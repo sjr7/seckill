@@ -716,7 +716,7 @@ var seckill = {
  
 ### 上一篇  [(二)Java高并发秒杀API之Service层](../note/note2.md) 
 
- ###下一篇     [(四)Java高并发秒杀API之高并发优化](../note/note4.md) 
+ ### 下一篇     [(四)Java高并发秒杀API之高并发优化](../note/note4.md) 
    
  ---
  - [(一)Java高并发秒杀API之Service层](../note/note2.md)  
