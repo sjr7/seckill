@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0f03f5f-8271-4cb2-8d84-de227c9b8ae7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note/EclipseImport.md" afterPath="$PROJECT_DIR$/note/EclipseImport.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1203,7 +1202,7 @@
       <workItem from="1495934825528" duration="77000" />
       <workItem from="1495934922978" duration="64000" />
       <workItem from="1495935068353" duration="18051000" />
-      <workItem from="1497743488477" duration="10274000" />
+      <workItem from="1497743488477" duration="10290000" />
     </task>
     <task id="LOCAL-00001" summary="完成mybatis跟spring基本的配置文件，完善下readme">
       <created>1495467269379</created>
@@ -1268,7 +1267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497754210865</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="更新Eclipse导入运行项目简单说明">
+      <created>1497755373048</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1497755373048</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1304,7 +1310,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139520000" />
+    <option name="totallyTimeSpent" value="139536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
