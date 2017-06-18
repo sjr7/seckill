@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0f03f5f-8271-4cb2-8d84-de227c9b8ae7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/eclipse/eclipse4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/eclipse/eclipse5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/eclipse/eclipse6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/EclipseImport.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note/EclipseImport.md" afterPath="$PROJECT_DIR$/note/EclipseImport.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,12 +71,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+              <first_editor relative-caret-position="1050">
+                <caret line="58" column="2" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
                 <folding>
                   <marker date="1497754185071" expanded="true" signature="2883:7294" ph="..." />
                   <marker date="1497754185071" expanded="true" signature="3272:7219" ph="..." />
@@ -155,12 +150,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EclipseImport.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EclipseImport.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/note/EclipseImport.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1560">
-                <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+              <first_editor relative-caret-position="-660">
+                <caret line="11" column="88" lean-forward="false" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -370,8 +365,8 @@
         <option value="$PROJECT_DIR$/note/note4.md" />
         <option value="$PROJECT_DIR$/note/note2.md" />
         <option value="$PROJECT_DIR$/note/note3.md" />
-        <option value="$PROJECT_DIR$/note/EclipseImport.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/note/EclipseImport.md" />
       </list>
     </option>
   </component>
@@ -1208,7 +1203,7 @@
       <workItem from="1495934825528" duration="77000" />
       <workItem from="1495934922978" duration="64000" />
       <workItem from="1495935068353" duration="18051000" />
-      <workItem from="1497743488477" duration="9192000" />
+      <workItem from="1497743488477" duration="10274000" />
     </task>
     <task id="LOCAL-00001" summary="完成mybatis跟spring基本的配置文件，完善下readme">
       <created>1495467269379</created>
@@ -1266,7 +1261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497747182038</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更新Eclipse导入运行项目简单说明">
+      <created>1497754210865</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1497754210865</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1302,7 +1304,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138438000" />
+    <option name="totallyTimeSpent" value="139520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1432,7 +1434,8 @@
     <MESSAGE value="修复重大java8时间传递到页面全部无法解析bug" />
     <MESSAGE value="引入redis来进行高速读取" />
     <MESSAGE value="项目引入Eclipse的支持，可以在Eclipse中直接导入" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目引入Eclipse的支持，可以在Eclipse中直接导入" />
+    <MESSAGE value="更新Eclipse导入运行项目简单说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新Eclipse导入运行项目简单说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1475,13 +1478,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -1723,6 +1719,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="51" column="13" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="51" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1888,22 +1885,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note/EclipseImport.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1560">
-            <caret line="49" column="27" lean-forward="true" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+          <first_editor relative-caret-position="1050">
+            <caret line="58" column="2" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
             <folding>
               <marker date="1497754185071" expanded="true" signature="2883:7294" ph="..." />
               <marker date="1497754185071" expanded="true" signature="3272:7219" ph="..." />
@@ -1971,6 +1957,22 @@
               <marker date="1497754185071" expanded="false" signature="15572:15576" ph="${" />
               <marker date="1497754185071" expanded="false" signature="15586:15605" ph="}${" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/eclipse/eclipse1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/EclipseImport.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-660">
+            <caret line="11" column="88" lean-forward="false" selection-start-line="11" selection-start-column="88" selection-end-line="11" selection-end-column="88" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>

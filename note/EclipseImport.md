@@ -5,11 +5,11 @@
 	git clone https://github.com/Sunybyjava/seckill.git
 ```
 ### 在Eclipse中导入项目
-  -  点击菜单栏上的`File`>`Import`,选择`Existing Projects into Workspace`
+  -  点击菜单栏上的`File`>`Import`,选择`Existing Projects into Workspace`  
   ![../images/eclipse/eclipse1.jpg](../images/eclipse/eclipse1.jpg)
-  - 选择你的项目地址,然后点导入
+  - 选择你的项目地址,然后点导入  
   ![../images/eclipse/eclipse2.jpg](../images/eclipse/eclipse2.jpg)
-  - 这时项目应该成功地导入了,注意查看`JDK`版本,我这里是`Open JDK1.8`,这里你是`Oracle JDK`还是`Open JDK`都好,必须是`1.8`
+  - 这时项目应该成功地导入了,注意查看`JDK`版本,我这里是`Open JDK1.8`,这里你是`Oracle JDK`还是`Open JDK`都好,必须是`1.8`  
   ![../images/eclipse/eclipse3.jpg](../images/eclipse/eclipse3.jpg)
   - 更改项目的编译等级,这一步很重要,否则项目编译失败
    ![../images/eclipse/eclipse4.jpg](../images/eclipse/eclipse4.jpg)
