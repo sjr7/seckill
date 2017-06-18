@@ -42,6 +42,22 @@
 ![效果图](/images/result_5.jpg)  
 
 ---
+## 项目的运行
+### 下载  
+
+`Download Zip`或者 `git clone`
+``` shell
+	git clone https://github.com/Sunybyjava/seckill.git
+```
+### 导入到IDE  
+这里因为是使用`IDEA`创建的项目,所以使用`IDEA`直接打开是很方便的,提前是你要配置好`maven`的相关配置,以及项目`JDK`版本,
+`JDK`版本必须在`1.8`以上,因为在项目中使用了`Java8`的`LocalDateTime`以及`LocalDate`,所以低于这个版本编译会失败的
+  - IDEA  
+  直接在主界面选择`Open`,然后找到项目所在路径,点击导入就可以了
+  - Eclipse
+  这个项目是基于`IDEA`创建,我这里把项目转成了`Eclipse`的项目,如果你使用Eclipse的话也可以直接导入,只是步骤更繁琐一点,[Eclipse导入步骤](/note/EclipseImport.md)
+  
+  
 ## 项目编码 
 项目总结可能比较的长,**密集恐惧症**者请按小节进行阅读  
 
