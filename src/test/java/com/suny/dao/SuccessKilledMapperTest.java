@@ -13,12 +13,12 @@ import static org.junit.Assert.*;
 /**
  * Created by 孙建荣 on 17-5-22.下午9:55
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"classpath:spring/applicationContext-dao.xml"})
+//@RunWith(SpringJUnit4ClassRunner.class)
+//@ContextConfiguration({"classpath:spring/applicationContext-dao.xml"})
 public class SuccessKilledMapperTest {
     @Resource
     private SuccessKilledMapper successKilledMapper;
-    @Test
+//    @Test
     public void insertSuccessKilled() throws Exception {
         long seckillId=1000;
         long userPhone=13476191877L;
@@ -26,7 +26,7 @@ public class SuccessKilledMapperTest {
         System.out.println("insertCount="+insertCount);
     }
 
-    @Test
+//    @Test
     public void queryByIdWithSeckill() throws Exception {
         long seckillId=1000L;
         long userPhone=13476191877L;

@@ -4,6 +4,7 @@ CREATE DATABASE seckill;
 -- 使用数据库
 USE seckill;
 -- 创建秒杀库存表
+
 CREATE TABLE seckill(
   `seckill_id` BIGINT NOT NULL AUTO_INCREMENT COMMENT '商品库存ID',
   `name` VARCHAR(120) NOT NULL COMMENT '商品名称',
@@ -36,7 +37,7 @@ create table success_killed(
   `create_time` TIMESTAMP NOT NULL COMMENT '创建时间',
   PRIMARY KEY (seckill_id,user_phone), /*联合主键*/
   KEY idx_create_time(create_time)
-)ENGINE =InnDB DEFAULT CHARSET =utf8 COMMENT ='秒杀成功明细表'
+)ENGINE =InnoDB DEFAULT CHARSET =utf8 COMMENT ='秒杀成功明细表';
 
 
 

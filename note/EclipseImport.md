@@ -26,10 +26,15 @@
     ![../images/eclipse/eclipse9.jpg](../images/eclipse/eclipse9.jpg)
    - 把项目转换成`Maven`项目,貌似`Eclipse`还不认识,在项目上右键`Configure`>`Convert to Maven Project`,然后稍等一会儿项目结构会发生点变化
    ![../images/eclipse/eclipse10.jpg](../images/eclipse/eclipse10.jpg)
-   - 更新`Maven`索引,在项目上右键,选择`Maven`>`Update Project`,或者是按快捷键`ALT+F5`,然后会弹出界面来选择要更新的项目
+   - 更新`Maven`索引,在项目上右键,选择`Maven`>`Update Project`,或者是按快捷键`ALT+F5`,然后会弹出界面来选择要更新的项目  
    ![../images/eclipse/eclipse11.jpg](../images/eclipse/eclipse11.jpg)
-   - 更新索引后,可以看到这里的资源没有红色了,如果没有这一步的话资源就是红色的
+   - 更新索引后,可以看到这里的资源没有红色了,如果没有这一步的话资源就是红色的  
    ![../images/eclipse/eclipse12.jpg](../images/eclipse/eclipse12.jpg)
+   - 安装`Maven`项目,在项目点击右键`Run`>`Maven Install`  
+   ![../images/eclipse/eclipse26.jpg](../images/eclipse/eclipse26.jpg)
+   我这里安装就报错了,因为连接不到数据库,所以你要先建立数据库表,然后更改数据库配置文件,配置文件位于[src/main/resources/jdbc.properties](../src/main/resources/jdbc.properties),根据自己的情况酌情修改
+   导入数据库后,再进行安装就应该不会报错了
+    ![../images/eclipse/eclipse27.jpg](../images/eclipse/eclipse27.jpg)
    - 添加可以部署项目的`Web容器`,这里添加Tomcat
    ![../images/eclipse/eclipse13.jpg](../images/eclipse/eclipse13.jpg)
    - 选择合适的版本进行添加

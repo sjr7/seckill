@@ -13,8 +13,8 @@ import static org.junit.Assert.*;
 /**
  * Created by 孙建荣 on 17-5-27.下午5:05
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"classpath:spring/applicationContext-dao.xml"})
+//@RunWith(SpringJUnit4ClassRunner.class)
+//@ContextConfiguration({"classpath:spring/applicationContext-dao.xml"})
 public class RedisDaoTest {
 
     private long id = 1001;
@@ -25,7 +25,7 @@ public class RedisDaoTest {
     @Autowired
     private SeckillMapper seckillMapper;
 
-    @Test
+//    @Test
     public void getSeckill() throws Exception {
         Seckill seckill = redisDao.getSeckill(id);
         if (seckill == null) {
@@ -39,7 +39,7 @@ public class RedisDaoTest {
         }
     }
 
-    @Test
+//    @Test
     public void putSeckill() throws Exception {
 
     }
