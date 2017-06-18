@@ -24,6 +24,8 @@
    ![../images/eclipse/eclipse8.jpg](../images/eclipse/eclipse8.jpg)
    -  更改项目的编码以及换行符
     ![../images/eclipse/eclipse9.jpg](../images/eclipse/eclipse9.jpg)
+   - 标记为动态WEB工程
+    ![../images/eclipse/eclipse29.jpg](../images/eclipse/eclipse29.jpg)
    - 把项目转换成`Maven`项目,貌似`Eclipse`还不认识,在项目上右键`Configure`>`Convert to Maven Project`,然后稍等一会儿项目结构会发生点变化
    ![../images/eclipse/eclipse10.jpg](../images/eclipse/eclipse10.jpg)
    - 更新`Maven`索引,在项目上右键,选择`Maven`>`Update Project`,或者是按快捷键`ALT+F5`,然后会弹出界面来选择要更新的项目  
@@ -54,10 +56,18 @@
           ![../images/eclipse/eclipse20.jpg](../images/eclipse/eclipse20.jpg)
           不要忘记保存这个设置,否则不生效的
    - 运行项目
+    - 把项目添加到Tomcat服务器
+     ![../images/eclipse/eclipse30.jpg](../images/eclipse/eclipse30.jpg)
+     ![../images/eclipse/eclipse31.jpg](../images/eclipse/eclipse31.jpg)
+     ![../images/eclipse/eclipse32.jpg](../images/eclipse/eclipse32.jpg)
    ![../images/eclipse/eclipse22.jpg](../images/eclipse/eclipse22.jpg)
     ![../images/eclipse/eclipse23.jpg](../images/eclipse/eclipse23.jpg)
+     ![../images/eclipse/eclipse23.jpg](../images/eclipse/eclipse28.jpg)
      ![../images/eclipse/eclipse24.jpg](../images/eclipse/eclipse24.jpg)
    ![../images/eclipse/eclipse21.jpg](../images/eclipse/eclipse21.jpg)
+   
+   - 运行效果
+   ![../images/eclipse/eclipse33.jpg](../images/eclipse/eclipse33.jpg)
    
    
    
