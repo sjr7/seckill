@@ -1200,7 +1200,8 @@ public class SeckillServiceImpl implements SeckillService {
                 } else {
                     // 秒杀成功了,返回那条插入成功秒杀的信息
                     SuccessKilled successKilled = successKilledMapper.queryByIdWithSeckill(seckillId, userPhone);
-                    return new SeckillExecution(seckillId,1,"秒杀成功");
+//                    return new SeckillExecution(seckillId,1,"秒杀成功");
+                      return new SeckillExecution(seckillId,1,"秒杀成功",successKilled);
                 }
             }
         } catch (SeckillCloseException | RepeatKillException e1) {
@@ -2066,7 +2067,10 @@ var seckill = {
         }
         else if (nowTime > endTime) {
             alert(nowTime > endTime);
-            console.log(nowTime + ">" + startTime);
+            
+            // console.log(nowTime + ">" + startTime); 秒杀结束应该根据结束时间判断
+            
+             console.log(nowTime + ">" + endTime);
             // 秒杀结束
             console.warn("秒杀已经结束了,当前时间为:" + nowTime + ",秒杀结束时间为" + endTime);
             seckillBox.html("秒杀结束");
@@ -2483,6 +2487,8 @@ SELECT @r_result;
 ## 写在最后
 
  整个项目的流程是我在看视频的过程中,每当有一个知识点的时候我就在笔记里面记录一个知识点的标题.然后在写详细过程的时候就是根据标题的顺序来进行回忆的,在遇到不是很记得到的地方我也会反过头去看下视频里面的流程,可能会有一些小问题存在.如果项目流程总结中有什么问题欢迎发`Issue`给我,或者您也可以直接联系我`sunybyjava@gmail.com`
-
+ 
 ### 感谢您的阅读
+
+
 
