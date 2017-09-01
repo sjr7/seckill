@@ -1200,7 +1200,7 @@ public class SeckillServiceImpl implements SeckillService {
                 } else {
                     // 秒杀成功了,返回那条插入成功秒杀的信息
                     SuccessKilled successKilled = successKilledMapper.queryByIdWithSeckill(seckillId, userPhone);
-                    return new SeckillExecution(seckillId,1,"秒杀成功");
+                    return new SeckillExecution(seckillId,1,"秒杀成功",successKilled =);
                 }
             }
         } catch (SeckillCloseException | RepeatKillException e1) {
