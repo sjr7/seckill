@@ -2066,7 +2066,7 @@ var seckill = {
         }
         else if (nowTime > endTime) {
             alert(nowTime > endTime);
-            console.log(nowTime + ">" + startTime);
+            console.log(nowTime + ">" + endTime);
             // 秒杀结束
             console.warn("秒杀已经结束了,当前时间为:" + nowTime + ",秒杀结束时间为" + endTime);
             seckillBox.html("秒杀结束");
