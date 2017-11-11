@@ -245,7 +245,7 @@ CREATE TABLE seckill(
   `end_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP() COMMENT '秒杀结束的时间',
   `create_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP() COMMENT '创建的时间',
   PRIMARY KEY (seckill_id),
-  KEY idx_start_time(seckill_id),
+  KEY idx_start_time(start_time),
   KEY idx_end_time(end_time),
   KEY idx_create_time(create_time)
 )ENGINE =InnoDB AUTO_INCREMENT=1000 DEFAULT CHARSET=utf8 COMMENT='秒杀库存表';

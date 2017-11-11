@@ -21,3 +21,9 @@ S
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 [
 +src/main/webapp/resources/script/seckill.js,4/4/44f04e7113bed85b3044bc2f470ad15f5943f27a
+R
+"src/main/resources/jdbc.properties,0/1/0136773a90d52716a72d1440f04397293425e328
+V
+&src/main/webapp/WEB-INF/jsp/detail.jsp,c/9/c919cc9a7cd4e34c16c5381936ab0e7f5f3af8b0
+?
+sql/seckill.sql,8/f/8f837ef82368be08599c9eca312258006237d148
