@@ -36,7 +36,7 @@ public class SeckillController {
      * @param model 模型数据，里面放置有秒杀商品的信息
      * @return 秒杀列表详情页面
      */
-    @RequestMapping(value = "/list", method = RequestMethod.GET)
+    @RequestMapping(value = {"/list","/","/index","index.html"}, method = RequestMethod.GET)
     public String list(Model model) {
         List<Seckill> seckillList = seckillService.getSeckillList();
         model.addAttribute("list", seckillList);

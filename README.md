@@ -2,7 +2,7 @@
 一个整合SSM框架的高并发和商品秒杀项目,学习目前较流行的Java框架组合实现高并发秒杀API
 
 ## 项目的来源
-项目的来源于国内IT公开课平台[慕课网](http://www.imooc.com),慕课网上资源有质量没的说,很适合学习一些技术的基础,这个项目是由四个系列的课程组成的,流程分为几个流程,很基础地教你接触到一个相对有技术含量的项目
+项目的来源于国内IT公开课平台,质量没的说,很适合学习一些技术的基础,这个项目是由四个系列的课程组成的,流程分为几个流程,很基础地教你接触到一个相对有技术含量的项目
  - Java高并发秒杀API之业务分析与DAO层
  - Java高并发秒杀API之web层
  - Java高并发秒杀API之Service层
@@ -53,7 +53,7 @@
 这里因为是使用`IDEA`创建的项目,所以使用`IDEA`直接打开是很方便的,提前是你要配置好`maven`的相关配置,以及项目`JDK`版本,
 `JDK`版本必须在`1.8`以上,因为在项目中使用了`Java8`的`LocalDateTime`以及`LocalDate`,所以低于这个版本编译会失败的
   - IDEA  
-  直接在主界面选择`Open`,然后找到项目所在路径,点击导入就可以了
+  直接在主界面选择`Open`,然后找到项目所在路径,点击`pom.xml`打开就可以了
   - Eclipse
   这个项目是基于`IDEA`创建,我这里把项目转成了`Eclipse`的项目,如果你使用Eclipse的话也可以直接导入,只是步骤更繁琐一点,[Eclipse导入步骤](/note/EclipseImport.md)
   
@@ -1472,7 +1472,7 @@ public class SeckillController {
      * @param model 模型数据,里面放置有秒杀商品的信息
      * @return 秒杀列表详情页面
      */
-    @RequestMapping(value = "/list", method = RequestMethod.GET)
+    @RequestMapping(value = {"/list","","index"}, method = RequestMethod.GET)
     public String list(Model model) {
         List<Seckill> seckillList = seckillService.getSeckillList();
         model.addAttribute("list", seckillList);
